@@ -7,9 +7,9 @@
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *      http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -67,7 +67,7 @@ public class EmojiIconBrowser {
 
         VerticalLayout verticalLayout = new VerticalLayout();
         // New Component: ResponsiveForm
-        ResponsiveForm responsiveForm = new ResponsiveForm<>(100,200,0);
+        ResponsiveForm responsiveForm = new ResponsiveForm<>(100, 200, 0);
         verticalLayout.addComponent(responsiveForm);
 
         ResponsiveFormLayout layout = responsiveForm.addResponsiveFormLayout(400);
@@ -77,8 +77,15 @@ public class EmojiIconBrowser {
         TextField searchField = new TextField();
         layout.addLabelAndField(MaterialIcon.SEARCH, "Icon Name", searchField);
         searchField.setEmptyText("Search...");
-        searchField.onTextInput.addListener(s ->iconViewModel.setRecords(EmojiIcon.getIcons().stream().filter(icon -> s == null || StringUtils.containsIgnoreCase(icon.getIconId(),s)).collect(Collectors.toList())));
+        searchField.onTextInput.addListener(s -> iconViewModel.setRecords(EmojiIcon.getIcons().stream().filter(icon -> s == null || StringUtils.containsIgnoreCase(icon.getIconId(), s)).collect(Collectors.toList())));
         verticalLayout.addComponent(searchField);
+
+        TextField unicodeField = new TextField();
+        layout.addLabelAndField(EmojiIcon.SLIGHTLY_SMILING_FACE, "Unicode", unicodeField);
+        unicodeField.setEmptyText("👋🏻");
+        unicodeField.setValue("👋");
+        unicodeField.onTextInput.addListener(s -> iconViewModel.setRecords(EmojiIcon.getIcons().stream().filter(icon -> s == null || StringUtils.containsIgnoreCase(icon.getUnicode(), s)).collect(Collectors.toList())));
+        verticalLayout.addComponent(unicodeField);
 
         // Style Selector
         ComboBox<EmojiIconStyle> styleSelector = ComboBox.createForList(EmojiIconStyle.getStyles());
@@ -93,18 +100,18 @@ public class EmojiIconBrowser {
             return null;
         });
         styleSelector.setRecordToStringFunction(EmojiIconStyle::getStyleId);
-        styleSelector.setValue(EmojiIconStyle.LIGHT);
+        styleSelector.setValue(EmojiIconStyle.COLOR);
         styleSelector.setShowClearButton(false);
-        styleSelector.onValueChanged.addListener(style -> {
-            iconStyle = style;
-            iconViewModel.onAllDataChanged.fire();
-            if (style.equals(EmojiIconStyle.DARK)) {
-                iconViewComponent.setBodyBackgroundColor(Color.BLACK.withAlpha(0.96f));
-            } else {
-                iconViewComponent.setBodyBackgroundColor(Color.WHITE.withAlpha(0.96f));
-            }
-        });
-        layout.addLabelAndField(MaterialIcon.STYLE, "Icon Style", styleSelector);
+//        styleSelector.onValueChanged.addListener(style -> {
+//            iconStyle = style;
+//            iconViewModel.onAllDataChanged.fire();
+//            if (style.equals(EmojiIconStyle.DARK)) {
+//                iconViewComponent.setBodyBackgroundColor(Color.BLACK.withAlpha(0.96f));
+//            } else {
+//                iconViewComponent.setBodyBackgroundColor(Color.WHITE.withAlpha(0.96f));
+//            }
+//        });
+//        layout.addLabelAndField(MaterialIcon.STYLE, "Icon Style", styleSelector);
         verticalLayout.addComponentFillRemaining(iconViewComponent);
         return verticalLayout;
     }
@@ -124,7 +131,7 @@ public class EmojiIconBrowser {
                     return null;
             }
         });
-        EmojiIconStyle iconStyle = EmojiIconStyle.LIGHT;
+        EmojiIconStyle iconStyle = EmojiIconStyle.COLOR;
         iconView.setModel(iconViewModel);
         Panel panel = new Panel(null, "Icons");
         panel.setContent(iconView);
@@ -134,11 +141,11 @@ public class EmojiIconBrowser {
             // Custom Notification with VERY LARGE ICON
             TemplateField<BaseTemplateRecord<Void>> templateField = new TemplateField<>(BaseTemplate.LIST_ITEM_EXTRA_VERY_LARGE_ICON_TWO_LINES);
             EmojiIcon icon = iconItemClickedEventData.getRecord();
-            templateField.setValue(new BaseTemplateRecord<>(icon, "EmojiIcon." + icon.getIconId(), icon.getIconPath()));
+            templateField.setValue(new BaseTemplateRecord<>(icon, "EmojiIcon." + icon.getIconId(), "EmojiIcon.forUnicode(\"" + icon.getUnicode() +"\")"));
             Notification iconNotification = new Notification();
             iconNotification.setContent(templateField);
             iconNotification.setShowProgressBar(false);
-            iconNotification.setDisplayTimeInMillis(5000);
+            iconNotification.setDisplayTimeInMillis(10000);
             sessionContext.showNotification(iconNotification, NotificationPosition.TOP_RIGHT);
         });
         return panel;

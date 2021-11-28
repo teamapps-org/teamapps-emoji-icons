@@ -79,7 +79,7 @@
             <groupId>org.teamapps</groupId>
             <artifactId>teamapps-server-jetty-embedded</artifactId>
             <version>${teamapps.version}</version>
-            <!--<scope>provided</scope>-->
+            <scope>provided</scope>
         </dependency>
 
         <dependency>

@@ -7,9 +7,9 @@
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *      http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -22,7 +22,10 @@ package org.teamapps.icon.emoji;
 import org.teamapps.icons.Icon;
 import org.teamapps.icons.spi.IconLibrary;
 
-import java.util.*;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 @IconLibrary(
@@ -34,31 +37,37 @@ import java.util.stream.Collectors;
 )
 public class EmojiIcon implements Icon<EmojiIcon, EmojiIconStyle> {
 
-    private static final Map<String, EmojiIcon> ICONS_BY_NAME = new HashMap<>();
-    private static final Map<String, EmojiIcon> ICONS_BY_ID_DARK = new HashMap<>();
+    private static final Map<String, EmojiIcon> ICONS_BY_ID = new HashMap<>();
+    private static final Map<String, EmojiIcon> ICONS_BY_UNICODE = new HashMap<>();
     private final String iconId;
-    private final EmojiIconStyle style = EmojiIconStyle.LIGHT;
+    private final EmojiIconStyle style = EmojiIconStyle.COLOR;
     private final String iconPath;
+    private final int iconNumber;
+    private final String unicode;
 
-    public EmojiIcon(String unicode, String name, String svg) {
-        this.iconId = name;
-        this.iconPath = svg;
+    public EmojiIcon(int number, String unicode, String id, String svg_file) {
+        this.iconId = id;
+        this.iconPath = svg_file;
+
+        this.iconNumber = number;
+        this.unicode = unicode;
     }
 
     public static EmojiIcon forId(String iconId) {
-        return forId(iconId,EmojiIconStyle.LIGHT);
+        return forId(iconId, EmojiIconStyle.COLOR);
     }
+
     public static EmojiIcon forId(String id, EmojiIconStyle style) {
-        if (style == null || EmojiIconStyle.LIGHT.equals(style)) {
-            return ICONS_BY_NAME.get(id);
-        } else {
-            return ICONS_BY_ID_DARK.get(id);
-        }
+        return ICONS_BY_ID.get(id);
+    }
+
+    public static EmojiIcon forUnicode(String unicode) {
+        return ICONS_BY_UNICODE.get(unicode);
     }
 
     public static List<EmojiIcon> getIcons() {
-        return ICONS_BY_NAME.values().stream()
-                .sorted(Comparator.comparing(EmojiIcon::getIconId))
+        return ICONS_BY_ID.values().stream()
+                .sorted(Comparator.comparing(EmojiIcon::getIconNumber))
                 .collect(Collectors.toList());
     }
 
@@ -75,17 +84,32 @@ public class EmojiIcon implements Icon<EmojiIcon, EmojiIconStyle> {
     public String getIconId() {
         return iconId;
     }
+
     public String getIconPath() {
         return iconPath;
     }
-    // "number", "emoji_unicode", "safe_name", "emoji_name", "base_name", "variant",  "codepoints_", "cps_html", "png_file", "svg_file", "sbw_file"
-    //private static EmojiIcon create(String number, String unicode, String safe_name, String emoji_name, String base_name, String variant, String codepoints, String html, String png, String svg, String svgBw) {
-        private static EmojiIcon create(int number, String unicode, String safe_name, String svg) {
-        EmojiIcon icon = new EmojiIcon(unicode, safe_name, svg);
-        ICONS_BY_NAME.put(safe_name, icon);
-        return icon;
+
+    private int getIconNumber() {
+        return iconNumber;
+    } // icon number is just for ordering, not a guaranteed ID
+
+    public String getUnicode() {
+        return unicode;
     }
 
+    public String getIconName() {
+        return iconId;
+    }
+
+    // "number", "emoji_unicode", "safe_name", "emoji_name", "base_name", "variant",  "codepoints_", "cps_html", "png_file", "svg_file", "sbw_file"
+    //private static EmojiIcon create(String number, String unicode, String safe_name, String emoji_name, String base_name, String variant, String codepoints, String html, String png, String svg, String svgBw) {
+    private static EmojiIcon create(int number, String unicode, String safe_name, String svg_file) {
+        EmojiIcon icon = new EmojiIcon(number, unicode, safe_name, svg_file);
+        ICONS_BY_ID.put(safe_name, icon);
+        ICONS_BY_UNICODE.put(unicode, icon);
+        return icon;
+    }
+    // generated entries
     public static final EmojiIcon GRINNING_FACE = create(1, "😀", "GRINNING_FACE", "svg/u1f600.svg");
     public static final EmojiIcon GRINNING_FACE_WITH_BIG_EYES = create(2, "😃", "GRINNING_FACE_WITH_BIG_EYES", "svg/u1f603.svg");
     public static final EmojiIcon GRINNING_FACE_WITH_SMILING_EYES = create(3, "😄", "GRINNING_FACE_WITH_SMILING_EYES", "svg/u1f604.svg");
@@ -2851,7 +2875,7 @@ public class EmojiIcon implements Icon<EmojiIcon, EmojiIconStyle> {
     public static final EmojiIcon GAME_DIE = create(2763, "🎲", "GAME_DIE", "svg/u1f3b2.svg");
     public static final EmojiIcon PUZZLE_PIECE = create(2764, "🧩", "PUZZLE_PIECE", "svg/u1f9e9.svg");
     public static final EmojiIcon TEDDY_BEAR = create(2765, "🧸", "TEDDY_BEAR", "svg/u1f9f8.svg");
-    public static final EmojiIcon PIÑATA = create(2766, "🪅", "PIÑATA", "svg/u1fa85.svg");
+    public static final EmojiIcon PINATA = create(2766, "🪅", "PINATA", "svg/u1fa85.svg");
     public static final EmojiIcon NESTING_DOLLS = create(2767, "🪆", "NESTING_DOLLS", "svg/u1fa86.svg");
     public static final EmojiIcon SPADE_SUIT = create(2768, "♠️", "SPADE_SUIT", "svg/u2660.svg");
     public static final EmojiIcon HEART_SUIT = create(2769, "♥️", "HEART_SUIT", "svg/u2665.svg");

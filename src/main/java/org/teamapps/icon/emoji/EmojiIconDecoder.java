@@ -41,8 +41,8 @@ public class EmojiIconDecoder implements IconDecoder<EmojiIcon> {
 
             // .withStyle(EmojiIconStyle.LIGHT);
             switch (iconStyle) {
-                case "DARK":
-                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.DARK);
+//                case "BW":
+//                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.BW);
                 case "LIGHT":
                     return EmojiIcon.forId(iconID);
                 default:

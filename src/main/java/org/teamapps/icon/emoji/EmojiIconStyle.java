@@ -19,13 +19,12 @@
  */
 package org.teamapps.icon.emoji;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class EmojiIconStyle {
 
-    public static final EmojiIconStyle LIGHT = new EmojiIconStyle("LIGHT", "Emoji");
-    public static final EmojiIconStyle DARK = new EmojiIconStyle("DARK", "EmojiDark");
+    public static final EmojiIconStyle COLOR = new EmojiIconStyle("COLOR", "svg");
+    // public static final EmojiIconStyle BW = new EmojiIconStyle("BW", "svg_bw");
 
     private final String styleId;
     private final String folder;
@@ -44,8 +43,8 @@ public class EmojiIconStyle {
     }
     public static List<EmojiIconStyle> getStyles(){
         return List.of(
-                EmojiIconStyle.LIGHT,
-                EmojiIconStyle.DARK
+                EmojiIconStyle.COLOR
+                //EmojiIconStyle.BW
         );
     }
 
