@@ -38,7 +38,14 @@ public class EmojiIconLoader implements IconLoader<EmojiIcon> {
 
     private byte[] getSVG(String iconPath, EmojiIconStyle style) {
 
-        String resourcePath = "/org/teamapps/icon/emoji/" + iconPath;
+        String folder = style.getFolder();
+        String resourcePath = "/org/teamapps/icon/emoji/" + folder + "/" + iconPath;
+
+        if (style.equals(EmojiIconStyle.TWEMOJI)){
+            resourcePath = "/org/teamapps/icon/emoji/" + folder + "/" + iconPath.replace('_','-').replaceAll("u", "");
+        } else if (style.equals(EmojiIconStyle.OPENMOJI_COLOR) || style.equals(EmojiIconStyle.OPENMOJI_BLACK)){
+            resourcePath = "/org/teamapps/icon/emoji/" + folder + "/" + iconPath.replaceAll("svg/", "").replace('_','-').replaceAll("u", "").toUpperCase().replaceAll("SVG", "svg");
+        }
 
 
         try(InputStream inputStream = getClass().getResourceAsStream(resourcePath)) {

@@ -24,6 +24,6 @@ import org.teamapps.icons.spi.DefaultStyleSupplier;
 public class EmojiIconDefaultIconSupplier implements DefaultStyleSupplier<EmojiIconStyle> {
     @Override
     public EmojiIconStyle getDefaultStyle() {
-        return EmojiIconStyle.COLOR;
+        return EmojiIconStyle.NOTO;
     }
 }

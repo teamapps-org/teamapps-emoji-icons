@@ -100,18 +100,18 @@ public class EmojiIconBrowser {
             return null;
         });
         styleSelector.setRecordToStringFunction(EmojiIconStyle::getStyleId);
-        styleSelector.setValue(EmojiIconStyle.COLOR);
+        styleSelector.setValue(EmojiIconStyle.NOTO);
         styleSelector.setShowClearButton(false);
-//        styleSelector.onValueChanged.addListener(style -> {
-//            iconStyle = style;
-//            iconViewModel.onAllDataChanged.fire();
+        styleSelector.onValueChanged.addListener(style -> {
+            iconStyle = style;
+            iconViewModel.onAllDataChanged.fire();
 //            if (style.equals(EmojiIconStyle.DARK)) {
 //                iconViewComponent.setBodyBackgroundColor(Color.BLACK.withAlpha(0.96f));
 //            } else {
 //                iconViewComponent.setBodyBackgroundColor(Color.WHITE.withAlpha(0.96f));
 //            }
-//        });
-//        layout.addLabelAndField(MaterialIcon.STYLE, "Icon Style", styleSelector);
+        });
+        layout.addLabelAndField(MaterialIcon.STYLE, "Icon Style", styleSelector);
         verticalLayout.addComponentFillRemaining(iconViewComponent);
         return verticalLayout;
     }
@@ -131,7 +131,7 @@ public class EmojiIconBrowser {
                     return null;
             }
         });
-        EmojiIconStyle iconStyle = EmojiIconStyle.COLOR;
+        EmojiIconStyle iconStyle = EmojiIconStyle.NOTO;
         iconView.setModel(iconViewModel);
         Panel panel = new Panel(null, "Icons");
         panel.setContent(iconView);

@@ -31,11 +31,11 @@ public class EmojiIconEncoder implements IconEncoder<EmojiIcon> {
         String encodedString;
         EmojiIconStyle style = icon.getStyle();
 //        if (style == EmojiIconStyle.DARK) {
-//            encodedString = "DARK~"+icon.getIconId();
+//            encodedString = "DARK~" + icon.getIconId();
 //        } else {
 //            encodedString = icon.getIconId();
 //        }
-        encodedString = icon.getIconId();
+        encodedString = style.getStyleId() + "~" + icon.getIconId();
         return encodedString;
     }
 }

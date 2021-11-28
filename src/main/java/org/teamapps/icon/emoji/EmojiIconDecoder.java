@@ -41,11 +41,17 @@ public class EmojiIconDecoder implements IconDecoder<EmojiIcon> {
 
             // .withStyle(EmojiIconStyle.LIGHT);
             switch (iconStyle) {
-//                case "BW":
-//                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.BW);
-                case "LIGHT":
-                    return EmojiIcon.forId(iconID);
+
+                case "TWEMOJI":
+                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.TWEMOJI);
+                case "NOTO":
+                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.NOTO);
+                case "OPENMOJI_COLOR":
+                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.OPENMOJI_COLOR);
+                case "OPENMOJI_BLACK":
+                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.OPENMOJI_BLACK);
                 default:
+                    System.out.println("IconStyleNotImplemented");
                     return null;
             }
 

@@ -23,7 +23,10 @@ import java.util.List;
 
 public class EmojiIconStyle {
 
-    public static final EmojiIconStyle COLOR = new EmojiIconStyle("COLOR", "svg");
+    public static final EmojiIconStyle NOTO = new EmojiIconStyle("NOTO", "noto");
+    public static final EmojiIconStyle TWEMOJI = new EmojiIconStyle("TWEMOJI", "twemoji");
+    public static final EmojiIconStyle OPENMOJI_COLOR = new EmojiIconStyle("OPENMOJI_COLOR", "openmoji-svg-color");
+    public static final EmojiIconStyle OPENMOJI_BLACK = new EmojiIconStyle("OPENMOJI_BLACK", "openmoji-svg-black");
     // public static final EmojiIconStyle BW = new EmojiIconStyle("BW", "svg_bw");
 
     private final String styleId;
@@ -43,8 +46,10 @@ public class EmojiIconStyle {
     }
     public static List<EmojiIconStyle> getStyles(){
         return List.of(
-                EmojiIconStyle.COLOR
-                //EmojiIconStyle.BW
+                EmojiIconStyle.NOTO,
+                EmojiIconStyle.TWEMOJI,
+                EmojiIconStyle.OPENMOJI_COLOR,
+                EmojiIconStyle.OPENMOJI_BLACK
         );
     }
 

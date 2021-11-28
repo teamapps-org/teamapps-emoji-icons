@@ -40,25 +40,28 @@ public class EmojiIcon implements Icon<EmojiIcon, EmojiIconStyle> {
     private static final Map<String, EmojiIcon> ICONS_BY_ID = new HashMap<>();
     private static final Map<String, EmojiIcon> ICONS_BY_UNICODE = new HashMap<>();
     private final String iconId;
-    private final EmojiIconStyle style = EmojiIconStyle.COLOR;
+    private final EmojiIconStyle style;
     private final String iconPath;
     private final int iconNumber;
     private final String unicode;
 
-    public EmojiIcon(int number, String unicode, String id, String svg_file) {
+    public EmojiIcon(int number, String unicode, String id, String svg_file, EmojiIconStyle style) {
         this.iconId = id;
         this.iconPath = svg_file;
+        this.style = style;
 
         this.iconNumber = number;
         this.unicode = unicode;
     }
 
     public static EmojiIcon forId(String iconId) {
-        return forId(iconId, EmojiIconStyle.COLOR);
+        return forId(iconId, EmojiIconStyle.NOTO);
     }
 
-    public static EmojiIcon forId(String id, EmojiIconStyle style) {
-        return ICONS_BY_ID.get(id);
+    public static EmojiIcon forId(String id, EmojiIconStyle estyle) {
+        EmojiIcon baseIcon = ICONS_BY_ID.get(id);
+        // TODO Reuse objects
+        return new EmojiIcon(baseIcon.iconNumber, baseIcon.unicode, baseIcon.iconId, baseIcon.iconPath, estyle);
     }
 
     public static EmojiIcon forUnicode(String unicode) {
@@ -104,7 +107,7 @@ public class EmojiIcon implements Icon<EmojiIcon, EmojiIconStyle> {
     // "number", "emoji_unicode", "safe_name", "emoji_name", "base_name", "variant",  "codepoints_", "cps_html", "png_file", "svg_file", "sbw_file"
     //private static EmojiIcon create(String number, String unicode, String safe_name, String emoji_name, String base_name, String variant, String codepoints, String html, String png, String svg, String svgBw) {
     private static EmojiIcon create(int number, String unicode, String safe_name, String svg_file) {
-        EmojiIcon icon = new EmojiIcon(number, unicode, safe_name, svg_file);
+        EmojiIcon icon = new EmojiIcon(number, unicode, safe_name, svg_file,  EmojiIconStyle.NOTO);
         ICONS_BY_ID.put(safe_name, icon);
         ICONS_BY_UNICODE.put(unicode, icon);
         return icon;
