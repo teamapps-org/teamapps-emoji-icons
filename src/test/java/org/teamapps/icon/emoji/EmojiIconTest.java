@@ -18,26 +18,26 @@ public class EmojiIconTest {
         assertEquals(EmojiIcon.forUnicode("👋🏻"), EmojiIcon.WAVING_HAND__LIGHT_SKIN_TONE);
     }
 
-//    @Test
-//    public void loadAllIcons() {
-//
-//        for (EmojiIcon icon : EmojiIcon.getIcons()) {
-//            String svg = "";
-//            try {
-//                IconResource iconResource = emojiIconLoader.loadIcon(icon, 22, null);
-//                svg = new String(iconResource.getBytes());
-//            } catch (Exception e) {
-//                System.out.println("ERROR Loading Icon: " + icon.getIconId() + ", error: " + e.getMessage());
-//            }
-//            assertNotNull(svg);
-////            assertNotEquals("", svg);
-//            if (!svg.contains("<svg")) {
-//                System.out.println(icon.getIconId() + "\n" + svg);
-//            }
-//            assertTrue("resource contains svg start tag " + icon.getIconId() + "\n" + svg, svg.contains("<svg"));
-//            assertTrue("resource contains svg end tag " + icon.getIconId() + "\n" + svg, svg.contains("</svg>"));
-//        }
-//    }
+    @Test
+    public void loadAllIcons() {
+
+        for (EmojiIcon icon : EmojiIcon.getIcons()) {
+            String svg = "";
+            try {
+                IconResource iconResource = emojiIconLoader.loadIcon(icon, 22, null);
+                svg = new String(iconResource.getBytes());
+            } catch (Exception e) {
+                System.out.println("ERROR Loading Icon: " + icon.getIconId() + ", error: " + e.getMessage());
+            }
+            assertNotNull(svg);
+//            assertNotEquals("", svg);
+            if (!svg.contains("<svg")) {
+                System.out.println(icon.getIconId() + "\n" + svg);
+            }
+            assertTrue("resource contains svg start tag " + icon.getIconId() + "\n" + svg, svg.contains("<svg"));
+            assertTrue("resource contains svg end tag " + icon.getIconId() + "\n" + svg, svg.contains("</svg>"));
+        }
+    }
 //    @Test
 //    public void loadAllIconsTwemoji() {
 //

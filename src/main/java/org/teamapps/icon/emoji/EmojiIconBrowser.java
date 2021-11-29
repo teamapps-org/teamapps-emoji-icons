@@ -46,7 +46,7 @@ import java.util.stream.Collectors;
 public class EmojiIconBrowser {
 
     private SessionContext sessionContext;
-    private EmojiIconStyle iconStyle;
+    private EmojiIconStyle iconStyle = EmojiIconStyle.NOTO;;
     private final ListInfiniteItemViewModel<EmojiIcon> iconViewModel = new ListInfiniteItemViewModel<>(EmojiIcon.getIcons());
 
     public EmojiIconBrowser(SessionContext sessionContext) {
@@ -131,7 +131,6 @@ public class EmojiIconBrowser {
                     return null;
             }
         });
-        EmojiIconStyle iconStyle = EmojiIconStyle.NOTO;
         iconView.setModel(iconViewModel);
         Panel panel = new Panel(null, "Icons");
         panel.setContent(iconView);
@@ -141,7 +140,7 @@ public class EmojiIconBrowser {
             // Custom Notification with VERY LARGE ICON
             TemplateField<BaseTemplateRecord<Void>> templateField = new TemplateField<>(BaseTemplate.LIST_ITEM_EXTRA_VERY_LARGE_ICON_TWO_LINES);
             EmojiIcon icon = iconItemClickedEventData.getRecord();
-            templateField.setValue(new BaseTemplateRecord<>(icon, "EmojiIcon." + icon.getIconId(), "EmojiIcon.forUnicode(\"" + icon.getUnicode() +"\")"));
+            templateField.setValue(new BaseTemplateRecord<>(icon.withStyle(iconStyle), "EmojiIcon." + icon.getIconId(), "EmojiIcon.forUnicode(\"" + icon.getUnicode() + "\")"));
             Notification iconNotification = new Notification();
             iconNotification.setContent(templateField);
             iconNotification.setShowProgressBar(false);
