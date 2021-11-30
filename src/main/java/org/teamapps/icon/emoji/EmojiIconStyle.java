@@ -50,14 +50,15 @@ public class EmojiIconStyle {
         String iconFilename = emojiIcon.getCodePointsList().stream()
                 .map(String::toUpperCase)
                 .collect(Collectors.joining("-"));
+        if (emojiIcon.getIconId().equals("WHITE_FLAG")){ iconFilename = "1F3F3"; } // waving flag like BLACK_FLAG instead of white rectangle
         return "openmoji-svg-color/" + iconFilename + ".svg";
     });
     public static final EmojiIconStyle OPENMOJI_BLACK = new EmojiIconStyle("OPENMOJI_BLACK", emojiIcon -> {
         String iconFilename = emojiIcon.getCodePointsList().stream()
                 .map(String::toUpperCase)
                 .collect(Collectors.joining("-"));
-
-        if (emojiIcon.isFlag()){
+        if (emojiIcon.getIconId().equals("WHITE_FLAG")){ iconFilename = "1F3F3"; } // waving flag like BLACK_FLAG instead of white rectangle
+        if (emojiIcon.isFlag() || emojiIcon.getIconId().equals("RAINBOW_FLAG") || emojiIcon.getIconId().equals("TRANSGENDER_FLAG")){
             // use colored flags, black flags are just empty rectangles
             return "openmoji-svg-color/" + iconFilename + ".svg";
         } else {
