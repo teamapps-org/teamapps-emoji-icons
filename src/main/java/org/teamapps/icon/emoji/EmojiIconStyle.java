@@ -43,7 +43,7 @@ public class EmojiIconStyle {
         String iconFilename = emojiIcon.getCodePointsList().stream()
                 .map(String::toLowerCase)
                 .collect(Collectors.joining("-"));
-        if (iconFilename.equals("1f3f3-fe0f")) { iconFilename = "1f3f3";} // fix white flag
+        iconFilename = iconFilename.replaceAll("^00", ""); // remove leading 00 (in Keycap icons)
         return "twemoji/svg/" + iconFilename + ".svg";
     });
     public static final EmojiIconStyle OPENMOJI_COLOR = new EmojiIconStyle("OPENMOJI_COLOR", emojiIcon -> {

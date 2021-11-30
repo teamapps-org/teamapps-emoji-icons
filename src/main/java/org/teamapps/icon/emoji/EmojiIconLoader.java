@@ -26,6 +26,7 @@ import org.teamapps.icons.spi.IconLoader;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.MessageFormat;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -37,25 +38,40 @@ public class EmojiIconLoader implements IconLoader<EmojiIcon> {
      */
     @Override
     public IconResource loadIcon(EmojiIcon icon, int size, IconLoaderContext context) {
-        return new IconResource(getSVG(icon), IconType.SVG);
-    }
-
-    private byte[] getSVG(EmojiIcon icon) {
         EmojiIconStyle style = icon.getStyle();
 
         String resourcePath = "/org/teamapps/icon/emoji/" + style.getIconPath(icon);
+        byte[] svgBytes = getSVG(resourcePath, icon);
 
-
-        try(InputStream inputStream = getClass().getResourceAsStream(resourcePath)) {
-            if (inputStream == null) {
-                return null;
-            }
-            return inputStream.readAllBytes();
-            // String svg = IOUtils.toString(inputStream, StandardCharsets.UTF_8);
-            // return svg.getBytes(StandardCharsets.UTF_8);
-        } catch (IOException e) {
-            e.printStackTrace();
+        if (svgBytes == null) {
+            // try without -fe0f suffix
+            resourcePath = resourcePath.replaceAll("[_-](fe0f|FE0F).svg", ".svg");
+            svgBytes = getSVG(resourcePath, icon);
         }
-        return null;
+        if (svgBytes == null) {
+            // remove all -fe0f
+            resourcePath = resourcePath.replaceAll("[_-](fe0f|FE0F)", "");
+            svgBytes = getSVG(resourcePath, icon);
+        }
+        if (svgBytes == null){
+            System.out.println(MessageFormat.format("Could not load icon {0} style: {1} from path: {2}", icon.getIconName(), icon.getStyle().getStyleId(), resourcePath));
+            return null;
+        }
+        return new IconResource(svgBytes, IconType.SVG);
     }
+
+    private byte[] getSVG(String resourcePath, EmojiIcon icon) {
+
+        byte[] svgBytes = null;
+        try(InputStream inputStream = getClass().getResourceAsStream(resourcePath)) {
+            if (inputStream != null) {
+                svgBytes = inputStream.readAllBytes();
+            }
+        } catch (IOException e) {
+            System.out.println(MessageFormat.format("Could not load icon '{0}' style: '{1}' from path '{2}. error: '{3}", icon.getIconName(), icon.getStyle().getStyleId(), resourcePath, e.getMessage()));
+        }
+        return svgBytes;
+
+    }
+
 }
