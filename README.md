@@ -4,6 +4,8 @@ Use Emojis in your TeamApps Application UI
 
 This library provides 1816 icons (3521 incl. skin tone variants) in 5 different styles.
 
+This is the full set of the [Unicode Emoji List Version 13.1](https://www.unicode.org/emoji/charts-13.1/emoji-list.html)
+
 * Noto from Google
 * Noto Black
 * Twemoji From Twitter
