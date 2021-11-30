@@ -3,6 +3,11 @@ package org.teamapps.icon.emoji;
 import org.junit.Test;
 import org.teamapps.icons.IconResource;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertTrue;
 
@@ -11,12 +16,39 @@ public class EmojiIconTest {
 
     public static void main(String[] args) {
         System.out.println("EmojiIcon Count: " + EmojiIcon.getIcons().size());
+        EmojiIcon icon = EmojiIcon.WAVING_HAND__LIGHT_SKIN_TONE;
+
+        int count = 0;
+        // this.unicode = new String(bytes, "UTF-8");
+        int stringLength = icon.getUnicode().length();
+        String[] pointCodes = new String[stringLength];
+        String[] pointCodesHex = new String[stringLength];
+
+        for (int offset = 0; offset < stringLength; ) {
+            final int codePoint = icon.getUnicode().codePointAt(offset);
+
+            pointCodes[count] = String.format("&#%d;", codePoint);
+            pointCodesHex[count++] = String.format("%x", codePoint);
+
+            offset += Character.charCount(codePoint);
+        }
+        System.out.println(Arrays.toString(pointCodesHex));
+        // var htmlDec = "".join(pointCodes);
+        IntStream codePoints = icon.getUnicode().codePoints();
+
+        // codePoints.forEach(value -> System.out.println(value));
+        codePoints.forEach(codePoint -> System.out.println(String.format("%x", codePoint)));
+
+        List<String> codePointsList = icon.getUnicode().codePoints().mapToObj(codePoint -> String.format("%x", codePoint)).collect(Collectors.toUnmodifiableList());
+        String filename = codePointsList.stream().map(String::toUpperCase).collect(Collectors.joining("_"));
+        System.out.println(filename);
     }
 
     @Test
     public void forUnicode() {
         assertEquals(EmojiIcon.forUnicode("👋🏻"), EmojiIcon.WAVING_HAND__LIGHT_SKIN_TONE);
     }
+
 
     @Test
     public void loadAllIcons() {

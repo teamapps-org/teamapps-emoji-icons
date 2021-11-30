@@ -20,30 +20,65 @@
 package org.teamapps.icon.emoji;
 
 import java.util.List;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class EmojiIconStyle {
 
-    public static final EmojiIconStyle NOTO = new EmojiIconStyle("NOTO", "noto");
-    public static final EmojiIconStyle TWEMOJI = new EmojiIconStyle("TWEMOJI", "twemoji");
-    public static final EmojiIconStyle OPENMOJI_COLOR = new EmojiIconStyle("OPENMOJI_COLOR", "openmoji-svg-color");
-    public static final EmojiIconStyle OPENMOJI_BLACK = new EmojiIconStyle("OPENMOJI_BLACK", "openmoji-svg-black");
+    public static final EmojiIconStyle NOTO = new EmojiIconStyle("NOTO", emojiIcon -> {
+        String iconFilename = "u" + emojiIcon.getCodePointsList().stream()
+                .map(String::toLowerCase)
+                .filter(s -> ! s.equals("fe0f"))
+                .filter(s -> ! s.equals("e007f"))
+                .collect(Collectors.joining("_")
+        );
+        if (emojiIcon.isFlag()){
+            return "noto/flags/" + iconFilename + ".svg";
+        } else {
+            return "noto/svg/" + iconFilename + ".svg";
+        }
+
+    });
+    public static final EmojiIconStyle TWEMOJI = new EmojiIconStyle("TWEMOJI", emojiIcon -> {
+        String iconFilename = emojiIcon.getCodePointsList().stream()
+                .map(String::toLowerCase)
+                .collect(Collectors.joining("-"));
+        if (iconFilename.equals("1f3f3-fe0f")) { iconFilename = "1f3f3";} // fix white flag
+        return "twemoji/svg/" + iconFilename + ".svg";
+    });
+    public static final EmojiIconStyle OPENMOJI_COLOR = new EmojiIconStyle("OPENMOJI_COLOR", emojiIcon -> {
+        String iconFilename = emojiIcon.getCodePointsList().stream()
+                .map(String::toUpperCase)
+                .collect(Collectors.joining("-"));
+        return "openmoji-svg-color/" + iconFilename + ".svg";
+    });
+    public static final EmojiIconStyle OPENMOJI_BLACK = new EmojiIconStyle("OPENMOJI_BLACK", emojiIcon -> {
+        String iconFilename = emojiIcon.getCodePointsList().stream()
+                .map(String::toUpperCase)
+                .collect(Collectors.joining("-"));
+
+        if (emojiIcon.isFlag()){
+            // use colored flags, black flags are just empty rectangles
+            return "openmoji-svg-color/" + iconFilename + ".svg";
+        } else {
+            return "openmoji-svg-black/" + iconFilename + ".svg";
+        }
+
+    });
     // public static final EmojiIconStyle BW = new EmojiIconStyle("BW", "svg_bw");
 
     private final String styleId;
-    private final String folder;
+    private final Function<EmojiIcon, String> iconPathProvider;
 
-    public EmojiIconStyle(String styleId, String folder) {
+    public EmojiIconStyle(String styleId, Function<EmojiIcon, String> iconPathProvider) {
         this.styleId = styleId;
-        this.folder = folder;
-    }
-
-    public String getFolder() {
-        return folder;
+        this.iconPathProvider = iconPathProvider;
     }
 
     public String getStyleId() {
         return styleId;
     }
+
     public static List<EmojiIconStyle> getStyles(){
         return List.of(
                 EmojiIconStyle.NOTO,
@@ -66,5 +101,12 @@ public class EmojiIconStyle {
     @Override
     public int hashCode() {
         return styleId.hashCode();
+    }
+
+    public Function<EmojiIcon, String> getIconPathProvider() {
+        return this.iconPathProvider;
+    }
+    public String getIconPath(EmojiIcon icon){
+        return getIconPathProvider().apply(icon);
     }
 }

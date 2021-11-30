@@ -26,6 +26,10 @@ import org.teamapps.icons.spi.IconLoader;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class EmojiIconLoader implements IconLoader<EmojiIcon> {
     /**
@@ -33,19 +37,13 @@ public class EmojiIconLoader implements IconLoader<EmojiIcon> {
      */
     @Override
     public IconResource loadIcon(EmojiIcon icon, int size, IconLoaderContext context) {
-        return new IconResource(getSVG(icon.getIconPath(), icon.getStyle()), IconType.SVG);
+        return new IconResource(getSVG(icon), IconType.SVG);
     }
 
-    private byte[] getSVG(String iconPath, EmojiIconStyle style) {
+    private byte[] getSVG(EmojiIcon icon) {
+        EmojiIconStyle style = icon.getStyle();
 
-        String folder = style.getFolder();
-        String resourcePath = "/org/teamapps/icon/emoji/" + folder + "/" + iconPath;
-
-        if (style.equals(EmojiIconStyle.TWEMOJI)){
-            resourcePath = "/org/teamapps/icon/emoji/" + folder + "/" + iconPath.replace('_','-').replaceAll("u", "");
-        } else if (style.equals(EmojiIconStyle.OPENMOJI_COLOR) || style.equals(EmojiIconStyle.OPENMOJI_BLACK)){
-            resourcePath = "/org/teamapps/icon/emoji/" + folder + "/" + iconPath.replaceAll("svg/", "").replace('_','-').replaceAll("u", "").toUpperCase().replaceAll("SVG", "svg");
-        }
+        String resourcePath = "/org/teamapps/icon/emoji/" + style.getIconPath(icon);
 
 
         try(InputStream inputStream = getClass().getResourceAsStream(resourcePath)) {
