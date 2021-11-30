@@ -24,6 +24,7 @@ import org.teamapps.common.format.Color;
 import org.teamapps.icon.material.MaterialIcon;
 import org.teamapps.server.jetty.embedded.TeamAppsJettyEmbeddedServer;
 import org.teamapps.ux.component.Component;
+import org.teamapps.ux.component.field.CheckBox;
 import org.teamapps.ux.component.field.TemplateField;
 import org.teamapps.ux.component.field.TextField;
 import org.teamapps.ux.component.field.combobox.ComboBox;
@@ -48,6 +49,7 @@ public class EmojiIconBrowser {
     private SessionContext sessionContext;
     private EmojiIconStyle iconStyle = EmojiIconStyle.NOTO;;
     private final ListInfiniteItemViewModel<EmojiIcon> iconViewModel = new ListInfiniteItemViewModel<>(EmojiIcon.getIcons());
+    private boolean showSkinToneVariants = false;
 
     public EmojiIconBrowser(SessionContext sessionContext) {
         this.sessionContext = sessionContext;
@@ -58,7 +60,7 @@ public class EmojiIconBrowser {
         Component iconFinder = createIconFinder();
         panel.setContent(iconFinder);
         panel.setTitle("Icon Viewer");
-        panel.setIcon(MaterialIcon.STARS);
+        panel.setIcon(EmojiIcon.GRINNING_FACE); // MaterialIcon.STARS
         return panel;
     }
 
@@ -73,19 +75,35 @@ public class EmojiIconBrowser {
         ResponsiveFormLayout layout = responsiveForm.addResponsiveFormLayout(400);
 
         // Icon Search
-        layout.addSection(MaterialIcon.FILTER, "Filter Icons");
+        layout.addSection(EmojiIcon.GLASSES, "Filter Icons"); // MaterialIcon.FILTER
         TextField searchField = new TextField();
-        layout.addLabelAndField(MaterialIcon.SEARCH, "Icon Name", searchField);
+        layout.addLabelAndField(EmojiIcon.MAGNIFYING_GLASS_TILTED_LEFT, "Icon Name", searchField); // MaterialIcon.SEARCH
         searchField.setEmptyText("Search...");
-        searchField.onTextInput.addListener(s -> iconViewModel.setRecords(EmojiIcon.getIcons().stream().filter(icon -> s == null || StringUtils.containsIgnoreCase(icon.getIconId(), s)).collect(Collectors.toList())));
-        verticalLayout.addComponent(searchField);
+        searchField.onTextInput.addListener(s -> {
+            iconViewModel.setRecords(EmojiIcon.getIcons().stream()
+                    .filter(icon -> s == null || StringUtils.containsIgnoreCase(icon.getIconId(), s))
+                    .filter(icon -> showSkinToneVariants || !StringUtils.containsIgnoreCase(icon.getIconId(), "_SKIN_TONE"))
+                    .collect(Collectors.toList()));
+        });
+        searchField.onTextInput.fire(); // initial filtering (hide skintone variants)
+
+        CheckBox showSkinTonesField = new CheckBox();
+        showSkinTonesField.setValue(showSkinToneVariants);
+        layout.addLabelAndField(EmojiIcon.KISS__WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE, "Show Skin Tone variants", showSkinTonesField);
+        showSkinTonesField.onValueChanged.addListener(value -> {
+            showSkinToneVariants = value;
+            searchField.onTextInput.fire(searchField.getValue()); // update records
+        });
 
         TextField unicodeField = new TextField();
         layout.addLabelAndField(EmojiIcon.SLIGHTLY_SMILING_FACE, "Unicode", unicodeField);
         unicodeField.setEmptyText("👋🏻");
         unicodeField.setValue("👋");
-        unicodeField.onTextInput.addListener(s -> iconViewModel.setRecords(EmojiIcon.getIcons().stream().filter(icon -> s == null || StringUtils.containsIgnoreCase(icon.getUnicode(), s)).collect(Collectors.toList())));
-        verticalLayout.addComponent(unicodeField);
+        unicodeField.onTextInput.addListener(s -> {
+            iconViewModel.setRecords(EmojiIcon.getIcons().stream()
+                    .filter(icon -> s == null || StringUtils.containsIgnoreCase(icon.getUnicode(), s))
+                    .collect(Collectors.toList()));
+        });
 
         // Style Selector
         ComboBox<EmojiIconStyle> styleSelector = ComboBox.createForList(EmojiIconStyle.getStyles());
@@ -93,7 +111,7 @@ public class EmojiIconBrowser {
         styleSelector.setPropertyExtractor((style, propertyName) -> {
             switch (propertyName) {
                 case BaseTemplate.PROPERTY_ICON:
-                    return MaterialIcon.BRUSH;
+                    return EmojiIcon.PAINTBRUSH; // MaterialIcon.BRUSH;
                 case BaseTemplate.PROPERTY_CAPTION:
                     return style.getStyleId();
             }
@@ -111,7 +129,7 @@ public class EmojiIconBrowser {
 //                iconViewComponent.setBodyBackgroundColor(Color.WHITE.withAlpha(0.96f));
 //            }
         });
-        layout.addLabelAndField(MaterialIcon.STYLE, "Icon Style", styleSelector);
+        layout.addLabelAndField(EmojiIcon.PAINTBRUSH, "Icon Style", styleSelector); // MaterialIcon.BRUSH
         verticalLayout.addComponentFillRemaining(iconViewComponent);
         return verticalLayout;
     }
