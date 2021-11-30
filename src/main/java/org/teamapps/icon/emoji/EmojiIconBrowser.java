@@ -24,13 +24,12 @@ import org.teamapps.common.format.Color;
 import org.teamapps.icon.material.MaterialIcon;
 import org.teamapps.server.jetty.embedded.TeamAppsJettyEmbeddedServer;
 import org.teamapps.ux.component.Component;
-import org.teamapps.ux.component.field.CheckBox;
-import org.teamapps.ux.component.field.TemplateField;
-import org.teamapps.ux.component.field.TextField;
+import org.teamapps.ux.component.field.*;
 import org.teamapps.ux.component.field.combobox.ComboBox;
 import org.teamapps.ux.component.flexcontainer.VerticalLayout;
 import org.teamapps.ux.component.form.ResponsiveForm;
 import org.teamapps.ux.component.form.ResponsiveFormLayout;
+import org.teamapps.ux.component.format.VerticalElementAlignment;
 import org.teamapps.ux.component.infiniteitemview.InfiniteItemView2;
 import org.teamapps.ux.component.infiniteitemview.ListInfiniteItemViewModel;
 import org.teamapps.ux.component.notification.Notification;
@@ -52,6 +51,7 @@ public class EmojiIconBrowser {
     private final ListInfiniteItemViewModel<EmojiIcon> iconViewModel = new ListInfiniteItemViewModel<>(EmojiIcon.getIcons());
     private boolean showSkinToneVariants = false;
     private Panel iconViewComponent;
+    private InfiniteItemView2<EmojiIcon> iconView;
 
     public EmojiIconBrowser(SessionContext sessionContext) {
         this.sessionContext = sessionContext;
@@ -134,6 +134,19 @@ public class EmojiIconBrowser {
 //            }
         });
         layout.addLabelAndField(EmojiIcon.PAINTBRUSH, "Icon Style", styleSelector); // MaterialIcon.BRUSH
+
+        // Icon Size
+        NumberField sizeField = new NumberField(0);
+        layout.addLabelAndField(EmojiIcon.LEFTRIGHT_ARROW, "Icon Size", sizeField);
+        sizeField.setValue(48);
+        sizeField.setMinValue(10);
+        sizeField.setMaxValue(300);
+        sizeField.setSliderMode(NumberFieldSliderMode.VISIBLE);
+        sizeField.onValueChanged.addListener(value -> {
+            iconView.setItemTemplate(BaseTemplate.createTreeSingleLineNodeTemplate(value.intValue(), VerticalElementAlignment.CENTER, value.intValue()+50));
+            iconView.setItemHeight(value.intValue()+10);
+        });
+
         verticalLayout.addComponentFillRemaining(iconViewComponent);
         updateViewerCount();
         return verticalLayout;
@@ -144,7 +157,7 @@ public class EmojiIconBrowser {
     }
 
     public Panel createIconViewer() {
-        InfiniteItemView2<EmojiIcon> iconView = new InfiniteItemView2<>();
+        iconView = new InfiniteItemView2<>();
         iconView.setItemTemplate(BaseTemplate.LIST_ITEM_LARGE_ICON_SINGLE_LINE);
         iconView.setItemHeight(50);
         iconView.setItemWidth(300);
