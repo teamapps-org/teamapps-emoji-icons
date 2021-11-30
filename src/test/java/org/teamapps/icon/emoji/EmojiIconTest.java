@@ -72,6 +72,48 @@ public class EmojiIconTest {
     }
 
     @Test
+    public void loadAllIconsNoto() {
+
+        for (EmojiIcon icon : EmojiIcon.getIcons()) {
+            String svg = "";
+            try {
+                EmojiIcon styledIcon = icon.withStyle(EmojiIconStyle.NOTO);
+                IconResource iconResource = emojiIconLoader.loadIcon(styledIcon, 22, null);
+                svg = new String(iconResource.getBytes());
+            } catch (Exception e) {
+                System.out.println("ERROR Loading Icon: " + icon.getIconId() + ", error: " + e.getMessage());
+            }
+            assertNotNull(svg);
+//            assertNotEquals("", svg);
+            if (!svg.contains("<svg")) {
+                System.out.println(icon.getIconId() + "\n" + svg);
+            }
+            assertTrue("resource contains svg start tag " + icon.getIconId() + "\n" + svg, svg.contains("<svg"));
+            assertTrue("resource contains svg end tag " + icon.getIconId() + "\n" + svg, svg.contains("</svg>"));
+        }
+    }
+    @Test
+    public void loadAllIconsNotoBlack() {
+
+        for (EmojiIcon icon : EmojiIcon.getIcons()) {
+            String svg = "";
+            try {
+                EmojiIcon styledIcon = icon.withStyle(EmojiIconStyle.NOTO_BLACK);
+                IconResource iconResource = emojiIconLoader.loadIcon(styledIcon, 22, null);
+                svg = new String(iconResource.getBytes());
+            } catch (Exception e) {
+                System.out.println("ERROR Loading Icon: " + icon.getIconId() + ", error: " + e.getMessage());
+            }
+            assertNotNull(svg);
+//            assertNotEquals("", svg);
+            if (!svg.contains("<svg")) {
+                System.out.println(icon.getIconId() + "\n" + svg);
+            }
+            assertTrue("resource contains svg start tag " + icon.getIconId() + "\n" + svg, svg.contains("<svg"));
+            assertTrue("resource contains svg end tag " + icon.getIconId() + "\n" + svg, svg.contains("</svg>"));
+        }
+    }
+    @Test
     public void loadAllIconsTwemoji() {
 
         for (EmojiIcon icon : EmojiIcon.getIcons()) {
@@ -98,7 +140,7 @@ public class EmojiIconTest {
         for (EmojiIcon icon : EmojiIcon.getIcons()) {
             String svg = "";
             try {
-                EmojiIcon styledIcon = icon.withStyle(EmojiIconStyle.OPENMOJI_COLOR);
+                EmojiIcon styledIcon = icon.withStyle(EmojiIconStyle.OPENMOJI);
                 IconResource iconResource = emojiIconLoader.loadIcon(styledIcon, 22, null);
                 svg = new String(iconResource.getBytes());
             } catch (Exception e) {

@@ -39,6 +39,19 @@ public class EmojiIconStyle {
         }
 
     });
+    public static final EmojiIconStyle NOTO_BLACK = new EmojiIconStyle("NOTO_BLACK", emojiIcon -> {
+        String iconFilename = "u" + emojiIcon.getCodePointsList().stream()
+                .map(String::toLowerCase)
+                .filter(s -> ! s.equals("fe0f"))
+                .filter(s -> ! s.equals("e007f"))
+                .collect(Collectors.joining("_")
+        );
+        if (emojiIcon.isFlag()){
+            return "noto/flags_bw/" + iconFilename + ".svg";
+        } else {
+            return "noto/svg_bw/" + iconFilename + ".svg";
+        }
+    });
     public static final EmojiIconStyle TWEMOJI = new EmojiIconStyle("TWEMOJI", emojiIcon -> {
         String iconFilename = emojiIcon.getCodePointsList().stream()
                 .map(String::toLowerCase)
@@ -46,7 +59,7 @@ public class EmojiIconStyle {
         iconFilename = iconFilename.replaceAll("^00", ""); // remove leading 00 (in Keycap icons)
         return "twemoji/svg/" + iconFilename + ".svg";
     });
-    public static final EmojiIconStyle OPENMOJI_COLOR = new EmojiIconStyle("OPENMOJI_COLOR", emojiIcon -> {
+    public static final EmojiIconStyle OPENMOJI = new EmojiIconStyle("OPENMOJI", emojiIcon -> {
         String iconFilename = emojiIcon.getCodePointsList().stream()
                 .map(String::toUpperCase)
                 .collect(Collectors.joining("-"));
@@ -83,8 +96,9 @@ public class EmojiIconStyle {
     public static List<EmojiIconStyle> getStyles(){
         return List.of(
                 EmojiIconStyle.NOTO,
+                EmojiIconStyle.NOTO_BLACK,
                 EmojiIconStyle.TWEMOJI,
-                EmojiIconStyle.OPENMOJI_COLOR,
+                EmojiIconStyle.OPENMOJI,
                 EmojiIconStyle.OPENMOJI_BLACK
         );
     }

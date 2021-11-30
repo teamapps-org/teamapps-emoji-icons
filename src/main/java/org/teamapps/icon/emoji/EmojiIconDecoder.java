@@ -46,8 +46,10 @@ public class EmojiIconDecoder implements IconDecoder<EmojiIcon> {
                     return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.TWEMOJI);
                 case "NOTO":
                     return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.NOTO);
-                case "OPENMOJI_COLOR":
-                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.OPENMOJI_COLOR);
+                case "NOTO_BLACK":
+                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.NOTO_BLACK);
+                case "OPENMOJI":
+                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.OPENMOJI);
                 case "OPENMOJI_BLACK":
                     return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.OPENMOJI_BLACK);
                 default:

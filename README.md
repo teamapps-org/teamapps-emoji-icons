@@ -2,11 +2,12 @@
 
 Use Emojis in your TeamApps Application UI
 
-This library provides 1816 icons (3521 incl. skin tone variants) in 4 different styles.
+This library provides 1816 icons (3521 incl. skin tone variants) in 5 different styles.
 
 * Noto from Google
+* Noto Black
 * Twemoji From Twitter
-* OpenMoji Color
+* OpenMoji
 * OpenMoji Black
 
 ## Usage
