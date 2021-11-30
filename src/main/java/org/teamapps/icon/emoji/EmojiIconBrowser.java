@@ -47,9 +47,11 @@ import java.util.stream.Collectors;
 public class EmojiIconBrowser {
 
     private SessionContext sessionContext;
-    private EmojiIconStyle iconStyle = EmojiIconStyle.NOTO;;
+    private EmojiIconStyle iconStyle = EmojiIconStyle.NOTO;
+    ;
     private final ListInfiniteItemViewModel<EmojiIcon> iconViewModel = new ListInfiniteItemViewModel<>(EmojiIcon.getIcons());
     private boolean showSkinToneVariants = false;
+    private Panel iconViewComponent;
 
     public EmojiIconBrowser(SessionContext sessionContext) {
         this.sessionContext = sessionContext;
@@ -65,7 +67,7 @@ public class EmojiIconBrowser {
     }
 
     protected Component createIconFinder() {
-        Panel iconViewComponent = createIconViewer();
+        iconViewComponent = createIconViewer();
 
         VerticalLayout verticalLayout = new VerticalLayout();
         // New Component: ResponsiveForm
@@ -84,12 +86,13 @@ public class EmojiIconBrowser {
                     .filter(icon -> s == null || StringUtils.containsIgnoreCase(icon.getIconId(), s))
                     .filter(icon -> showSkinToneVariants || !StringUtils.containsIgnoreCase(icon.getIconId(), "_SKIN_TONE"))
                     .collect(Collectors.toList()));
+            updateViewerCount();
         });
         searchField.onTextInput.fire(); // initial filtering (hide skintone variants)
 
         CheckBox showSkinTonesField = new CheckBox();
         showSkinTonesField.setValue(showSkinToneVariants);
-        layout.addLabelAndField(EmojiIcon.KISS__WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUM_SKIN_TONE, "Show Skin Tone variants", showSkinTonesField);
+        layout.addLabelAndField(EmojiIcon.COUPLE_WITH_HEART__WOMAN_MAN_LIGHT_SKIN_TONE_MEDIUMDARK_SKIN_TONE, "Show Skin Tone variants", showSkinTonesField);
         showSkinTonesField.onValueChanged.addListener(value -> {
             showSkinToneVariants = value;
             searchField.onTextInput.fire(searchField.getValue()); // update records
@@ -103,6 +106,7 @@ public class EmojiIconBrowser {
             iconViewModel.setRecords(EmojiIcon.getIcons().stream()
                     .filter(icon -> s == null || StringUtils.containsIgnoreCase(icon.getUnicode(), s))
                     .collect(Collectors.toList()));
+            updateViewerCount();
         });
 
         // Style Selector
@@ -131,7 +135,12 @@ public class EmojiIconBrowser {
         });
         layout.addLabelAndField(EmojiIcon.PAINTBRUSH, "Icon Style", styleSelector); // MaterialIcon.BRUSH
         verticalLayout.addComponentFillRemaining(iconViewComponent);
+        updateViewerCount();
         return verticalLayout;
+    }
+
+    private void updateViewerCount() {
+        iconViewComponent.setTitle("Icons (" + iconViewModel.getCount() + ")");
     }
 
     public Panel createIconViewer() {

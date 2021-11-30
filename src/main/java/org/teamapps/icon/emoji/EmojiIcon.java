@@ -3638,6 +3638,4 @@ public class EmojiIcon implements Icon<EmojiIcon, EmojiIconStyle> {
     public static final EmojiIcon FLAG_ENGLAND = create(3519, "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "FLAG_ENGLAND", true);
     public static final EmojiIcon FLAG_SCOTLAND = create(3520, "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "FLAG_SCOTLAND", true);
     public static final EmojiIcon FLAG_WALES = create(3521, "🏴󠁧󠁢󠁷󠁬󠁳󠁿", "FLAG_WALES", true);
-
-
 }
