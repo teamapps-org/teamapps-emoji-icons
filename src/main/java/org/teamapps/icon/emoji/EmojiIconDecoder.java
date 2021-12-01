@@ -7,9 +7,9 @@
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *      http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -34,14 +34,12 @@ public class EmojiIconDecoder implements IconDecoder<EmojiIcon> {
             // No Style / Default Style
             String iconID = parts[0];
             return EmojiIcon.forId(iconID); // .withStyle(EmojiIconStyle.LIGHT);
-        } else if (parts.length == 2){
+        } else if (parts.length == 2) {
             // Some Style
             String iconID = parts[1];
             String iconStyle = parts[0];
 
-            // .withStyle(EmojiIconStyle.LIGHT);
             switch (iconStyle) {
-
                 case "TWEMOJI":
                     return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.TWEMOJI);
                 case "NOTO":
@@ -53,7 +51,7 @@ public class EmojiIconDecoder implements IconDecoder<EmojiIcon> {
                 case "OPENMOJI_BLACK":
                     return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.OPENMOJI_BLACK);
                 default:
-                    System.out.println("IconStyleNotImplemented");
+                    System.out.printf("EmojiIconDecoder: iconStyle {1} not implemented%n", iconStyle);
                     return null;
             }
 

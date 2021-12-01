@@ -44,7 +44,7 @@ public class EmojiIcon implements Icon<EmojiIcon, EmojiIconStyle> {
     private final int iconNumber;
     private final String unicode;
     private final boolean isFlag;
-    private List<String> codePointsList;
+    private final List<String> codePointsList;
 
     public EmojiIcon(int number, String unicode, String id, boolean isFlag, EmojiIconStyle style) {
         this.iconId = id;
@@ -90,19 +90,17 @@ public class EmojiIcon implements Icon<EmojiIcon, EmojiIconStyle> {
     public String getIconId() {
         return iconId;
     }
-    public String getIconName() {
-        return iconId;
-    }
 
+    // icon number is just for ordering, not a guaranteed ID
     private int getIconNumber() {
         return iconNumber;
-    } // icon number is just for ordering, not a guaranteed ID
+    }
 
     public String getUnicode() {
         return unicode;
     }
 
-    public List<String> getCodePointsList(){
+    public List<String> getCodePointsList() {
         return this.codePointsList;
     }
 
@@ -110,12 +108,13 @@ public class EmojiIcon implements Icon<EmojiIcon, EmojiIconStyle> {
         return isFlag;
     }
 
-    private static EmojiIcon create(int number, String unicode, String safe_name, boolean isFlag ) {
+    private static EmojiIcon create(int number, String unicode, String safe_name, boolean isFlag) {
         EmojiIcon icon = new EmojiIcon(number, unicode, safe_name, isFlag, EmojiIconStyle.NOTO);
         ICONS_BY_ID.put(safe_name, icon);
         ICONS_BY_UNICODE.put(unicode, icon);
         return icon;
     }
+
     // generated entries
     public static final EmojiIcon GRINNING_FACE = create(1, "😀", "GRINNING_FACE", false);
     public static final EmojiIcon GRINNING_FACE_WITH_BIG_EYES = create(2, "😃", "GRINNING_FACE_WITH_BIG_EYES", false);

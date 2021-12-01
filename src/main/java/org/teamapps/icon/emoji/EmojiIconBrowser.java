@@ -47,7 +47,6 @@ public class EmojiIconBrowser {
 
     private SessionContext sessionContext;
     private EmojiIconStyle iconStyle = EmojiIconStyle.NOTO;
-    ;
     private final ListInfiniteItemViewModel<EmojiIcon> iconViewModel = new ListInfiniteItemViewModel<>(EmojiIcon.getIcons());
     private boolean showSkinToneVariants = false;
     private Panel iconViewComponent;
@@ -128,11 +127,6 @@ public class EmojiIconBrowser {
         styleSelector.onValueChanged.addListener(style -> {
             iconStyle = style;
             iconViewModel.onAllDataChanged.fire();
-//            if (style.equals(EmojiIconStyle.DARK)) {
-//                iconViewComponent.setBodyBackgroundColor(Color.BLACK.withAlpha(0.96f));
-//            } else {
-//                iconViewComponent.setBodyBackgroundColor(Color.WHITE.withAlpha(0.96f));
-//            }
         });
         layout.addLabelAndField(EmojiIcon.PAINTBRUSH, "Icon Style", styleSelector); // MaterialIcon.BRUSH
 
