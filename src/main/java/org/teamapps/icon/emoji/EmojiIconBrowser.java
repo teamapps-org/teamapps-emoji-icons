@@ -52,6 +52,7 @@ public class EmojiIconBrowser {
     private boolean showSkinToneVariants = false;
     private Panel iconViewComponent;
     private InfiniteItemView2<EmojiIcon> iconView;
+    private TextField unicodeField;
 
     public EmojiIconBrowser(SessionContext sessionContext) {
         this.sessionContext = sessionContext;
@@ -84,7 +85,7 @@ public class EmojiIconBrowser {
         searchField.onTextInput.addListener(s -> {
             iconViewModel.setRecords(EmojiIcon.getIcons().stream()
                     .filter(icon -> s == null || StringUtils.containsIgnoreCase(icon.getIconId(), s))
-                    .filter(icon -> showSkinToneVariants || !StringUtils.containsIgnoreCase(icon.getIconId(), "_SKIN_TONE"))
+                    .filter(icon -> showSkinToneVariants || !(icon.getIconId().contains("__") && icon.getIconId().contains("_SKIN_TONE")))
                     .collect(Collectors.toList()));
             updateViewerCount();
         });
@@ -98,13 +99,13 @@ public class EmojiIconBrowser {
             searchField.onTextInput.fire(searchField.getValue()); // update records
         });
 
-        TextField unicodeField = new TextField();
+        unicodeField = new TextField();
         layout.addLabelAndField(EmojiIcon.SLIGHTLY_SMILING_FACE, "Unicode", unicodeField);
-        unicodeField.setEmptyText("👋🏻");
-        unicodeField.setValue("👋");
+        unicodeField.setEmptyText("👋");
+        unicodeField.setValue("");
         unicodeField.onTextInput.addListener(s -> {
             iconViewModel.setRecords(EmojiIcon.getIcons().stream()
-                    .filter(icon -> s == null || StringUtils.containsIgnoreCase(icon.getUnicode(), s))
+                    .filter(icon -> StringUtils.isEmpty(s) || StringUtils.containsIgnoreCase(s, icon.getUnicode()))
                     .collect(Collectors.toList()));
             updateViewerCount();
         });
@@ -143,8 +144,8 @@ public class EmojiIconBrowser {
         sizeField.setMaxValue(300);
         sizeField.setSliderMode(NumberFieldSliderMode.VISIBLE);
         sizeField.onValueChanged.addListener(value -> {
-            iconView.setItemTemplate(BaseTemplate.createTreeSingleLineNodeTemplate(value.intValue(), VerticalElementAlignment.CENTER, value.intValue()+50));
-            iconView.setItemHeight(value.intValue()+10);
+            iconView.setItemTemplate(BaseTemplate.createTreeSingleLineNodeTemplate(value.intValue(), VerticalElementAlignment.CENTER, value.intValue() + 50));
+            iconView.setItemHeight(value.intValue() + 10);
         });
 
         verticalLayout.addComponentFillRemaining(iconViewComponent);
@@ -186,6 +187,9 @@ public class EmojiIconBrowser {
             iconNotification.setShowProgressBar(false);
             iconNotification.setDisplayTimeInMillis(10000);
             sessionContext.showNotification(iconNotification, NotificationPosition.TOP_RIGHT);
+            if (!unicodeField.getValue().contains(icon.getUnicode())) {
+                unicodeField.setValue(unicodeField.getValue() + icon.getUnicode());
+            }
         });
         return panel;
     }
