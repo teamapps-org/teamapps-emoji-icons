@@ -1,7 +1,7 @@
 # Copyright © 2021 Teamapps.org
 # Licensed under the Apache License, Version 2.0
 """
-Generates Entries for EmojiIconProvider or CSV with emoji data
+Generates Entries for EmojiIcon Library or CSV with emoji data
 """
 import argparse
 import io

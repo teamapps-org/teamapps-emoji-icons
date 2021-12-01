@@ -1,4 +1,4 @@
-# TeamApps Emoji Icon Provider
+# TeamApps Emoji Icon Library
 
 Use Emojis in your TeamApps Application UI
 
@@ -77,7 +77,7 @@ public class IconBrowser {
 
 ## SVG Sources
 
-This Icon Provider contains SVG Icons of following Open Source Emoji Icon sets:
+This Icon Library contains SVG Icons of following Open Source Emoji Icon sets:
 
 ### Noto SVG
 
