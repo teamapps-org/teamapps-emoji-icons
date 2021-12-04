@@ -105,17 +105,20 @@ def emoji_data(emoji):
 
     if is_flag:
         flag_name = emoji_name.split(':', 1)[1].strip()
+        base_name = flag_name # for csv
         safe_country = strip_accents(flag_name)
-        base_name = flag_name
         safe_name = "flag_{}".format(safe_country)
         variant = ''
 
-    safe_name = re.sub(r' ', '_', safe_name)
-    safe_name = re.sub(r'#', 'hashtag', safe_name) # keycode #
-    safe_name = re.sub(r'[*]', 'asterisk', safe_name) # keycode *
+    safe_name = re.sub(r' ', '_', safe_name) # space to underline
+    safe_name = re.sub(r'#', 'hash', safe_name) # keycap #
+    safe_name = re.sub(r'[*]', 'star', safe_name) # keycap *
+    safe_name = re.sub(r'keycap__', 'keycap_', safe_name) # keycap__
     safe_name = re.sub(r'ñ', 'n', safe_name) # piñata
-    safe_name = re.sub(r'(.*)_medal', r'medal_\1', safe_name) # beginning with number
-    safe_name = re.sub(r'[\W+]', '', safe_name).lower()
+    safe_name = re.sub(r'^1st(.*)', r'first\1', safe_name) # beginning with number
+    safe_name = re.sub(r'^2nd(.*)', r'second\1', safe_name) # beginning with number
+    safe_name = re.sub(r'^3rd(.*)', r'third\1', safe_name) # beginning with number
+    safe_name = re.sub(r'[\W+]', '', safe_name).lower() # remove all non-word characters
 
     # return [i, emoji_unicode, safe_name, emoji_name, base_name, variant, '_'.join(cps), cps_html, filename, png_file, svg_file, sbw_file]
     return {
