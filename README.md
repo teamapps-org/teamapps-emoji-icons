@@ -11,6 +11,7 @@ This is the full set of the [Unicode Emoji List Version 13.1](https://www.unicod
 * Twemoji From Twitter
 * OpenMoji
 * OpenMoji Black
+* OpenMoji Mod (OpenMoji without padding and changed color)
 
 ## Usage
 
@@ -135,7 +136,7 @@ The svg file assets are stored in [src/main/resources/org/teamapps/icon/emoji/](
 
 * NOTO:
   * Download noto-emoji (currently branch svg_flags2) https://github.com/googlefonts/noto-emoji/tree/svg_flags2
-  * Run scrip in src/main/resources/org/teamapps/icon/emoji/noto/import-noto.sh
+  * Run script in `project-resources/import-noto.sh`
 * NOTO_BLACK:
   * Download Release Asset (Source code) from https://github.com/adobe-fonts/noto-emoji-svg
   * extract `svg_bw` and `flag_bw`
@@ -144,6 +145,10 @@ The svg file assets are stored in [src/main/resources/org/teamapps/icon/emoji/](
   * extract assets/svg
 * OPENMOJI
   * Download and extract sets from: https://github.com/hfg-gmuend/openmoji/releases
+* OPENMOJI_MOD_*
+  * generated from openmoji sources with script based on https://github.com/vavrecan/openmoji-mod
+  * forked mod with docker-composed based conversion: https://github.com/pgassmann/openmoji-mod
+  * run svg_cleaner: `python3 project-resources/svg_cleaner.py src/main/resources/org/teamapps/icon/emoji/openmoji-mod/yellow/`
   
 ### generate EmojiIcon Entries
 
@@ -157,7 +162,6 @@ python3 generate_java_entries.py -J
 ~~~
 
 Then copy the entries from [emoji.java](project-resources/emoji.java) to [EmojiIcon.java](src/main/java/org/teamapps/icon/emoji/EmojiIcon.java)
-
 
 
 ## TEAMAPPS SOFTWARE LICENSE

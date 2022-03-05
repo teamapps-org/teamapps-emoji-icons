@@ -83,6 +83,21 @@ public class EmojiIconStyle {
         }
 
     });
+    public static final EmojiIconStyle OPENMOJI_MOD_YELLOW = new EmojiIconStyle("OPENMOJI_MOD_YELLOW", emojiIcon -> {
+        String iconFilename = emojiIcon.getCodePointsList().stream()
+                .map(String::toUpperCase)
+                .collect(Collectors.joining("-"));
+        if (emojiIcon.getIconId().equals("WHITE_FLAG")) { // waving flag like BLACK_FLAG instead of white rectangle
+            iconFilename = "1F3F3";
+        }
+        if (emojiIcon.isFlag() || emojiIcon.getIconId().equals("RAINBOW_FLAG") || emojiIcon.getIconId().equals("TRANSGENDER_FLAG")) {
+            // use colored flags, black flags are just empty rectangles
+            return "openmoji-mod/yellow/" + iconFilename + ".svg";
+        } else {
+            return "openmoji-mod/yellow/" + iconFilename + ".svg";
+        }
+
+    });
 
     private final String styleId;
     private final Function<EmojiIcon, String> iconPathProvider;
@@ -102,8 +117,13 @@ public class EmojiIconStyle {
                 EmojiIconStyle.NOTO_BLACK,
                 EmojiIconStyle.TWEMOJI,
                 EmojiIconStyle.OPENMOJI,
-                EmojiIconStyle.OPENMOJI_BLACK
+                EmojiIconStyle.OPENMOJI_BLACK,
+                EmojiIconStyle.OPENMOJI_MOD_YELLOW
         );
+    }
+
+    public static EmojiIconStyle getById(String styleId){
+        return getStyles().stream().filter(style -> style.getStyleId().equals(styleId)).findAny().orElse(null);
     }
 
     @Override
@@ -120,6 +140,7 @@ public class EmojiIconStyle {
     public int hashCode() {
         return styleId.hashCode();
     }
+
 
     public Function<EmojiIcon, String> getIconPathProvider() {
         return this.iconPathProvider;

@@ -35,19 +35,23 @@ dir="$(dirname $(readlink -f $0))"
 cd $dir
 
 source_dir="$1"
+noto_resource_dir="../src/main/resources/org/teamapps/icon/emoji/noto"
 
-rm -rf svg/
-rm -rf region-flags/waved-svg/
+rm -rf ${noto_resource_dir}/svg/
+rm -rf ${noto_resource_dir}/region-flags/waved-svg/
 
-rsync -a "${source_dir}/svg/" svg/
-rsync -a "${source_dir}/third_party/region-flags/waved-svg/" region-flags/waved-svg/
-python3 svg_cleaner.py svg
-python3 svg_cleaner.py region-flags/waved-svg
+rsync -a "${source_dir}/svg/" ${noto_resource_dir}/svg/
+rsync -a "${source_dir}/third_party/region-flags/waved-svg/" ${noto_resource_dir}/region-flags/waved-svg/
+python3 svg_cleaner.py ${noto_resource_dir}/svg
+python3 svg_cleaner.py ${noto_resource_dir}/region-flags/waved-svg
 
 
 ## fixes
-
 # remove suffix from some flags
+cd ${noto_resource_dir}
 mv region-flags/waved-svg/emoji_u1f3f4_e0067_e0062_e0065_e006e_e0067{_e007f,}.svg
 mv region-flags/waved-svg/emoji_u1f3f4_e0067_e0062_e0073_e0063_e0074{_e007f,}.svg
 mv region-flags/waved-svg/emoji_u1f3f4_e0067_e0062_e0077_e006c_e0073{_e007f,}.svg
+
+
+cd $dir

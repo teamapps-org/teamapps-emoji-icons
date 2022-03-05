@@ -92,95 +92,35 @@ public class EmojiIconTest {
 
     @Test
     public void loadAllIconsNoto() {
-
-        for (EmojiIcon icon : EmojiIcon.getIcons()) {
-            String svg = "";
-            try {
-                EmojiIcon styledIcon = icon.withStyle(EmojiIconStyle.NOTO);
-                IconResource iconResource = emojiIconLoader.loadIcon(styledIcon, 22, null);
-                svg = new String(iconResource.getBytes());
-            } catch (Exception e) {
-                System.out.println("ERROR Loading Icon: " + icon.getIconId() + ", error: " + e.getMessage());
-            }
-            assertNotNull(svg);
-//            assertNotEquals("", svg);
-            if (!svg.contains("<svg")) {
-                System.out.println(icon.getIconId() + "\n" + svg);
-            }
-            assertTrue("resource contains svg start tag " + icon.getIconId() + "\n" + svg, svg.contains("<svg"));
-            assertTrue("resource contains svg end tag " + icon.getIconId() + "\n" + svg, svg.contains("</svg>"));
-        }
+        loadAllIconsWithStyle(EmojiIconStyle.NOTO);
     }
     @Test
     public void loadAllIconsNotoBlack() {
-
-        for (EmojiIcon icon : EmojiIcon.getIcons()) {
-            String svg = "";
-            try {
-                EmojiIcon styledIcon = icon.withStyle(EmojiIconStyle.NOTO_BLACK);
-                IconResource iconResource = emojiIconLoader.loadIcon(styledIcon, 22, null);
-                svg = new String(iconResource.getBytes());
-            } catch (Exception e) {
-                System.out.println("ERROR Loading Icon: " + icon.getIconId() + ", error: " + e.getMessage());
-            }
-            assertNotNull(svg);
-//            assertNotEquals("", svg);
-            if (!svg.contains("<svg")) {
-                System.out.println(icon.getIconId() + "\n" + svg);
-            }
-            assertTrue("resource contains svg start tag " + icon.getIconId() + "\n" + svg, svg.contains("<svg"));
-            assertTrue("resource contains svg end tag " + icon.getIconId() + "\n" + svg, svg.contains("</svg>"));
-        }
+        loadAllIconsWithStyle(EmojiIconStyle.NOTO_BLACK);
     }
     @Test
     public void loadAllIconsTwemoji() {
-
-        for (EmojiIcon icon : EmojiIcon.getIcons()) {
-            String svg = "";
-            try {
-                EmojiIcon styledIcon = icon.withStyle(EmojiIconStyle.TWEMOJI);
-                IconResource iconResource = emojiIconLoader.loadIcon(styledIcon, 22, null);
-                svg = new String(iconResource.getBytes());
-            } catch (Exception e) {
-                System.out.println("ERROR Loading Icon: " + icon.getIconId() + ", error: " + e.getMessage());
-            }
-            assertNotNull(svg);
-//            assertNotEquals("", svg);
-            if (!svg.contains("<svg")) {
-                System.out.println(icon.getIconId() + "\n" + svg);
-            }
-            assertTrue("resource contains svg start tag " + icon.getIconId() + "\n" + svg, svg.contains("<svg"));
-            assertTrue("resource contains svg end tag " + icon.getIconId() + "\n" + svg, svg.contains("</svg>"));
-        }
+        loadAllIconsWithStyle(EmojiIconStyle.TWEMOJI);
     }
     @Test
     public void loadAllIconsOpenMojiColor() {
-
-        for (EmojiIcon icon : EmojiIcon.getIcons()) {
-            String svg = "";
-            try {
-                EmojiIcon styledIcon = icon.withStyle(EmojiIconStyle.OPENMOJI);
-                IconResource iconResource = emojiIconLoader.loadIcon(styledIcon, 22, null);
-                svg = new String(iconResource.getBytes());
-            } catch (Exception e) {
-                System.out.println("ERROR Loading Icon: " + icon.getIconId() + ", error: " + e.getMessage());
-            }
-            assertNotNull(svg);
-//            assertNotEquals("", svg);
-            if (!svg.contains("<svg")) {
-                System.out.println(icon.getIconId() + "\n" + svg);
-            }
-            assertTrue("resource contains svg start tag " + icon.getIconId() + "\n" + svg, svg.contains("<svg"));
-            assertTrue("resource contains svg end tag " + icon.getIconId() + "\n" + svg, svg.contains("</svg>"));
-        }
+        loadAllIconsWithStyle(EmojiIconStyle.OPENMOJI);
     }
     @Test
     public void loadAllIconsOpenMojiBlack() {
+        loadAllIconsWithStyle(EmojiIconStyle.OPENMOJI_BLACK);
+    }
+    @Test
+    public void loadAllIconsOpenMojiModYellow() {
+        loadAllIconsWithStyle(EmojiIconStyle.OPENMOJI_MOD_YELLOW);
+    }
+
+    private void loadAllIconsWithStyle(EmojiIconStyle style){
 
         for (EmojiIcon icon : EmojiIcon.getIcons()) {
             String svg = "";
             try {
-                EmojiIcon styledIcon = icon.withStyle(EmojiIconStyle.OPENMOJI_BLACK);
+                EmojiIcon styledIcon = icon.withStyle(style);
                 IconResource iconResource = emojiIconLoader.loadIcon(styledIcon, 22, null);
                 svg = new String(iconResource.getBytes());
             } catch (Exception e) {
@@ -194,5 +134,6 @@ public class EmojiIconTest {
             assertTrue("resource contains svg start tag " + icon.getIconId() + "\n" + svg, svg.contains("<svg"));
             assertTrue("resource contains svg end tag " + icon.getIconId() + "\n" + svg, svg.contains("</svg>"));
         }
+
     }
 }

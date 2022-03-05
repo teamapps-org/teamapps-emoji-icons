@@ -39,21 +39,30 @@ public class EmojiIconDecoder implements IconDecoder<EmojiIcon> {
             String iconID = parts[1];
             String iconStyle = parts[0];
 
-            switch (iconStyle) {
-                case "TWEMOJI":
-                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.TWEMOJI);
-                case "NOTO":
-                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.NOTO);
-                case "NOTO_BLACK":
-                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.NOTO_BLACK);
-                case "OPENMOJI":
-                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.OPENMOJI);
-                case "OPENMOJI_BLACK":
-                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.OPENMOJI_BLACK);
-                default:
-                    System.out.printf("EmojiIconDecoder: iconStyle {1} not implemented%n", iconStyle);
-                    return null;
+            EmojiIconStyle style = EmojiIconStyle.getById(iconStyle);
+            if (style != null){
+                return EmojiIcon.forId(iconID).withStyle(style);
+            } else {
+                System.out.printf("EmojiIconDecoder: iconStyle {1} not implemented%n", iconStyle);
+                return null;
             }
+//            switch (iconStyle) {
+//                case "TWEMOJI":
+//                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.TWEMOJI);
+//                case "NOTO":
+//                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.NOTO);
+//                case "NOTO_BLACK":
+//                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.NOTO_BLACK);
+//                case "OPENMOJI":
+//                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.OPENMOJI);
+//                case "OPENMOJI_BLACK":
+//                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.OPENMOJI_BLACK);
+//                case "OPENMOJI_MOD_YELLOW":
+//                    return EmojiIcon.forId(iconID).withStyle(EmojiIconStyle.OPENMOJI_MOD_YELLOW);
+//                default:
+//                    System.out.printf("EmojiIconDecoder: iconStyle {1} not implemented%n", iconStyle);
+//                    return null;
+//            }
 
         }
         return null;
