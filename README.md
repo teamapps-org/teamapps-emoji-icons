@@ -79,7 +79,13 @@ public class IconBrowser {
 
 This Icon Library contains SVG Icons of following Open Source Emoji Icon sets:
 
-### Noto SVG
+### Noto
+
+Google Font https://github.com/googlefonts/noto-emoji
+
+Tools and most image resources are under the [Apache license, version 2.0](https://github.com/googlefonts/noto-emoji/blob/main/LICENSE). Flag images under third_party/region-flags are in the public domain or otherwise exempt from copyright (more info).
+
+### Noto Black
 
 Adobe SVG Font Project https://github.com/adobe-fonts/noto-emoji-svg based on
 Google Font https://github.com/googlefonts/noto-emoji
@@ -128,8 +134,11 @@ Graphics licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
 The svg file assets are stored in [src/main/resources/org/teamapps/icon/emoji/](./src/main/resources/org/teamapps/icon/emoji/)
 
 * NOTO:
+  * Download noto-emoji (currently branch svg_flags2) https://github.com/googlefonts/noto-emoji/tree/svg_flags2
+  * Run scrip in src/main/resources/org/teamapps/icon/emoji/noto/import-noto.sh
+* NOTO_BLACK:
   * Download Release Asset (Source code) from https://github.com/adobe-fonts/noto-emoji-svg
-  * extract `svg` and `flag`
+  * extract `svg_bw` and `flag_bw`
 * TWEMOJI
   * Download Release Asset (Source code) from https://github.com/twitter/twemoji/releases
   * extract assets/svg

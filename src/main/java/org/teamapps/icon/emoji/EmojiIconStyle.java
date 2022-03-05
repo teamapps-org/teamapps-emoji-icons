@@ -33,9 +33,9 @@ public class EmojiIconStyle {
                 .collect(Collectors.joining("_")
                 );
         if (emojiIcon.isFlag()) {
-            return "noto/flags/" + iconFilename + ".svg";
+            return "noto/region-flags/waved-svg/emoji_" + iconFilename + ".svg";
         } else {
-            return "noto/svg/" + iconFilename + ".svg";
+            return "noto/svg/emoji_" + iconFilename + ".svg";
         }
 
     });
@@ -47,9 +47,9 @@ public class EmojiIconStyle {
                 .collect(Collectors.joining("_")
                 );
         if (emojiIcon.isFlag()) {
-            return "noto/flags_bw/" + iconFilename + ".svg";
+            return "noto_black/flags_bw/" + iconFilename + ".svg";
         } else {
-            return "noto/svg_bw/" + iconFilename + ".svg";
+            return "noto_black/svg_bw/" + iconFilename + ".svg";
         }
     });
     public static final EmojiIconStyle TWEMOJI = new EmojiIconStyle("TWEMOJI", emojiIcon -> {

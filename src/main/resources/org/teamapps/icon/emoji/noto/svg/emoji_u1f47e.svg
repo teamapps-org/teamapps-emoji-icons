@@ -1,0 +1,27 @@
+<svg style="enable-background:new 0 0 128 128;" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect height="13.39" style="fill:#995AA8;" width="13.39" x="30.47" y="104.24"/>
+  <rect height="13.39" style="fill:#995AA8;" width="13.39" x="84.04" y="104.24"/>
+  <rect height="13.39" style="fill:#B574C3;" width="13.39" x="30.48" y="10.51"/>
+  <rect height="13.39" style="fill:#B574C3;" width="13.39" x="84.04" y="10.51"/>
+  <radialGradient id="SVGID_1_" cx="64.3435" cy="9.4034" gradientUnits="userSpaceOnUse" r="83.0562">
+    <stop offset="0.5082" style="stop-color:#B574C3"/>
+    <stop offset="0.684" style="stop-color:#B070BF"/>
+    <stop offset="0.878" style="stop-color:#A363B2"/>
+    <stop offset="0.9813" style="stop-color:#995AA8"/>
+  </radialGradient>
+  <path d="M97.46,64.08V37.3H84.04v-13.4H70.65v13.4H57.26V23.9H43.87v13.4H30.48v26.78H17.09v13.39 h13.39v13.4h13.39v13.38h13.39V90.87h13.39v13.38h13.39V90.87h13.42V77.47h13.37V64.08H97.46z M57.25,64.08H43.86V50.69h13.39V64.08 z M84.03,64.08H70.64V50.69h13.39V64.08z" style="fill:url(#SVGID_1_);"/>
+  <radialGradient id="SVGID_2_" cx="63.1176" cy="24.1144" gradientUnits="userSpaceOnUse" r="65.2806">
+    <stop offset="0.5082" style="stop-color:#B574C3"/>
+    <stop offset="0.684" style="stop-color:#B070BF"/>
+    <stop offset="0.878" style="stop-color:#A363B2"/>
+    <stop offset="0.9813" style="stop-color:#995AA8"/>
+  </radialGradient>
+  <rect height="26.8" style="fill:url(#SVGID_2_);" width="13.4" x="110.82" y="37.29"/>
+  <radialGradient id="SVGID_3_" cx="62.8111" cy="13.0811" gradientUnits="userSpaceOnUse" r="75.0897">
+    <stop offset="0.5082" style="stop-color:#B574C3"/>
+    <stop offset="0.684" style="stop-color:#B070BF"/>
+    <stop offset="0.878" style="stop-color:#A363B2"/>
+    <stop offset="0.9813" style="stop-color:#995AA8"/>
+  </radialGradient>
+  <rect height="26.8" style="fill:url(#SVGID_3_);" width="13.4" x="3.7" y="37.28"/>
+</svg>

@@ -241,6 +241,7 @@
                             <excludes>
                                 <exclude>**/*.json</exclude>
                                 <exclude>**/*.svg</exclude>
+                                <exclude>**/svg_cleaner.py</exclude>
                             </excludes>
                         </configuration>
                     </plugin>
