@@ -20,7 +20,7 @@ Add dependency to your TeamApps Maven Project:
 ~~~xml
         <dependency>
             <groupId>org.teamapps</groupId>
-            <artifactId>teamapps-emoji-icon-provider</artifactId>
+            <artifactId>teamapps-emoji-icons</artifactId>
             <version>1.0</version>
         </dependency>
 ~~~
@@ -152,9 +152,9 @@ The svg file assets are stored in [src/main/resources/org/teamapps/icon/emoji/](
   
 ### generate EmojiIcon Entries
 
-The EmojiIcon entries are generated based on [emoji-test.txt](project-resources/emoji-test.txt) using a python script
+The EmojiIcon entries are generated based on [emoji-test.txt](project-resources/emoji-test-13.1.txt) using a python script
 
-The [emoji-test.txt](project-resources/emoji-test.txt) file was obtained from http://unicode.org/Public/emoji/
+The [emoji-test.txt](project-resources/emoji-test-13.1.txt) file was obtained from http://unicode.org/Public/emoji/
 
 ~~~bash
 cd project-resources
