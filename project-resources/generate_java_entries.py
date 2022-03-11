@@ -24,7 +24,7 @@ SKIP_STATUSES = ('unqualified', 'non-fully-qualified', 'minimally-qualified')
 FILE_PREFIX = 'u'
 
 WORKING_DIR = os.path.dirname(os.path.abspath(__file__))
-TEST_INPUT_PATH = os.path.join(WORKING_DIR, 'emoji-test.txt')
+TEST_INPUT_PATH = os.path.join(WORKING_DIR, 'emoji-test-13.1.txt')
 
 
 def strip_accents(s):
