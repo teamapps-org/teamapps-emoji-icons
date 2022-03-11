@@ -4,7 +4,7 @@
 
     <groupId>org.teamapps</groupId>
     <artifactId>teamapps-emoji-icons</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
 
 
     <name>TeamApps Emoji Icon Library</name>
@@ -55,7 +55,7 @@
         <url>https://github.com/teamapps-org/teamapps-emoji-icons</url>
         <connection>scm:git:git@github.com:teamapps-org/teamapps-emoji-icons.git</connection>
         <developerConnection>scm:git:git@github.com:teamapps-org/teamapps-emoji-icons.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v1.1</tag>
     </scm>
 
     <dependencies>
