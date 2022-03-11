@@ -107,7 +107,7 @@
                     <!--<arguments>-Psonatype-oss-release -D${gpg.arguments}</arguments>-->
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <tagNameFormat>v@{version}</tagNameFormat>
-                    <releaseProfiles>javadoc-jar,sources-jar,license-handling</releaseProfiles>
+                    <releaseProfiles>javadoc-jar,sources-jar,license-handling,release</releaseProfiles>
                 </configuration>
             </plugin>
             <plugin>
@@ -120,20 +120,6 @@
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>false</autoReleaseAfterClose>
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-gpg-plugin</artifactId>
-                <version>1.6</version>
-                <executions>
-                    <execution>
-                        <id>sign-artifacts</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>sign</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
@@ -242,6 +228,27 @@
                                 <exclude>**/svg_cleaner.py</exclude>
                             </excludes>
                         </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>release</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.6</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
                     </plugin>
                 </plugins>
             </build>
