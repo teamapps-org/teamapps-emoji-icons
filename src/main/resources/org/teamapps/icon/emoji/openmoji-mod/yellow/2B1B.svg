@@ -1,0 +1,17 @@
+<svg viewBox="9 9 54 54" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="line-supplement">
+    <path id="groÃŸes schwarzes quadrat color 1" d="M61 11.0417H11V61.0417H61V11.0417Z" fill="#000"/>
+  </g>
+  <g id="color">
+    <path id="groÃŸes schwarzes quadrat color 1_2" d="M61 11.0417H11V61.0417H61V11.0417Z" fill="#3F3F3F"/>
+  </g>
+  <g id="line">
+    <path id="groÃŸes schwarzes quadrat line" d="M61 11.0417H11V61.0417H61V11.0417Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

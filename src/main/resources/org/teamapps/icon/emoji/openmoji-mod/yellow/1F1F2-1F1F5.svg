@@ -1,0 +1,24 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#61b2e4" height="38" width="62" x="5" y="17"/>
+    <g>
+      <ellipse cx="36" cy="36" fill="none" rx="10.4661" ry="10.4999" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+      <path d="M46.4658,35.9315a10.4661,10.4661,0,1,1-20.9317.137" fill="none" stroke="url(#yellow-gradient)" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M25.5343,36.0685a10.4661,10.4661,0,1,1,20.9317-.137" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon fill="#9b9b9a" points="40.5 50 31.5 50 34.5 32 37.5 32 40.5 50" stroke="#9b9b9a" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon fill="#9b9b9a" points="38.5 29 33.5 29 34.5 33 37.5 33 38.5 29" stroke="#9b9b9a" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon fill="#fff" points="32.122 42 36.105 30 39.539 41.816 30 34.696 42 34.4 32.122 42" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M25.7466,38.1161A10.6415,10.6415,0,0,1,25.7235,34" fill="none" stroke="#5c9e31" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M46.2535,34a10.6388,10.6388,0,0,1,.023,4.1158" fill="none" stroke="#5c9e31" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <g id="line">
+    <rect fill="none" height="38" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="62" x="5" y="17"/>
+  </g>
+</svg>

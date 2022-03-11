@@ -1,0 +1,31 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <polyline fill="#92d3f5" points="54.9988,4.0221 43,16.0208 36,16.0208 30.9584,10.9792 37.9207,4.0169 54.9988,4.0169" stroke="#92d3f5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline fill="#ea5a47" points="23.9831,4.0039 36,16.0208 29,16.0208 16.9675,3.9883 23.9831,3.9883" stroke="#ea5a47" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline fill="url(#yellow-gradient)" points="28,22.4271 28,17 44,17 44,22.4271" stroke="none"/>
+    <circle cx="36" cy="45.0208" fill="url(#yellow-gradient)" r="23" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon fill="#f1b31c" points="35.9861,28 30.8575,38.4014 19.3815,40.0733 27.6891,48.1652 25.7329,59.5961 35.9958,54.1957 46.2628,59.5885 44.2981,48.159 52.5996,40.061 41.1225,38.3976" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+  <g id="line">
+    <circle cx="36" cy="45.0208" fill="none" r="23" stroke="#000000" stroke-miterlimit="10" stroke-width="2"/>
+    <circle cx="36" cy="45.0208" fill="none" r="23" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <circle cx="36" cy="45.0208" fill="none" r="23" stroke="#000000" stroke-miterlimit="10" stroke-width="2"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="29" x2="29" y1="19" y2="16.0208"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="43" x2="43" y1="19" y2="16.0208"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="29" x2="43" y1="16.0208" y2="16.0208"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="25.9896" x2="16.9675" y1="13.0104" y2="3.9883"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="31.9896" x2="23.9831" y1="12.0104" y2="4.0039"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="34" x2="37.9207" y1="8" y2="4.0169"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="46" x2="54.9988" y1="13" y2="4.0221"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="16.9675" x2="23.9831" y1="3.9883" y2="3.9883"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="37.9207" x2="54.9988" y1="4.0169" y2="4.0169"/>
+    <circle cx="36" cy="45.0208" fill="none" r="23" stroke="#000000" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon fill="none" points="35.9861,28 30.8575,38.4014 19.3815,40.0733 27.6891,48.1652 25.7329,59.5961 35.9958,54.1957 46.2628,59.5885 44.2981,48.159 52.5996,40.061 41.1225,38.3976" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

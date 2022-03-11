@@ -1,0 +1,21 @@
+<svg viewBox="5 5 62 62" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <path d="M21.8,62.4L33,66l20-42.7c2.9-6,0-13.4-5.7-15.3" fill="#D22F27"/>
+    <polyline fill="#EA5A47" points="45,48.5 38.5,61.6 40.2,65 51.4,61.5"/>
+    <path d="M25,8c-5.8,1.9-8.6,9.2-5.8,15.3L28,42.2l6.4-13.8" fill="#EA5A47"/>
+    <polygon fill="#D22F27" points="41,20 46.9,7.2 25.3,7.2 31.3,20"/>
+  </g>
+  <g id="line">
+    <path d="M21.8,62.4L33,66l20-42.7c2.9-6,0-13.4-5.7-15.3L21.8,62.4z" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8125"/>
+    <polyline fill="none" points="38.9,62.4 40.2,65 51.4,61.5 45.4,49.3" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8125"/>
+    <path d="M34.2,27.6L25,8c-5.8,1.9-8.6,9.2-5.8,15.3l8.5,18.3" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8125"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8125" x1="33.7" x2="38.3" y1="19.1" y2="19.1"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8125" x1="43.7" x2="28.6" y1="8.1" y2="8.1"/>
+  </g>
+</svg>

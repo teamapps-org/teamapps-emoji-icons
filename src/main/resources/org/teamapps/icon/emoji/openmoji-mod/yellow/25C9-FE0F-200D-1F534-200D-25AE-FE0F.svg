@@ -1,0 +1,28 @@
+<svg viewBox="4 4 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="line-supplement">
+    <circle cx="36" cy="40" fill="#000" r="1"/>
+  </g>
+  <g id="color">
+    <rect fill="#3F3F3F" height="62" stroke="#000" stroke-linejoin="round" width="20" x="26" y="5"/>
+    <rect fill="#9B9B9A" height="14" width="20" x="26" y="53"/>
+    <circle cx="36" cy="40" fill="#D22F27" r="8" stroke="#D0CFCE"/>
+    <circle fill="#EA5A47" r="4" transform="matrix(-1 0 0 1 36 40)"/>
+    <path d="M41 40C41 39.4156 40.8997 38.8546 40.7155 38.3333C40.0291 36.3913 38.177 35 36 35" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="36" cy="40" fill="#F1B31C" r="2"/>
+    <circle cx="36" cy="40" fill="url(#yellow-gradient)" r="1"/>
+    <rect fill="#61B2E4" height="4" width="8" x="28" y="7"/>
+  </g>
+  <g id="line">
+    <rect fill="none" height="62" stroke="#000" stroke-linejoin="round" width="20" x="26" y="5"/>
+    <circle cx="36" cy="40" fill="none" r="7" stroke="#000"/>
+    <line stroke="#000" stroke-linecap="round" x1="27.5" x2="44.5" y1="52.5" y2="52.5"/>
+    <rect fill="none" height="4" stroke="#000" stroke-linejoin="round" width="16" x="28" y="7"/>
+    <rect fill="none" height="62" stroke="#000" stroke-linejoin="round" width="20" x="26" y="5"/>
+  </g>
+</svg>

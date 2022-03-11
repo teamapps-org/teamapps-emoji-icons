@@ -1,0 +1,25 @@
+<svg viewBox="9 9 54 54" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#D0CFCE" height="39.9982" width="50" x="11" y="15.9592"/>
+    <rect fill="#3F3F3F" height="11.0833" width="8" x="14.9843" y="24.9881"/>
+    <polygon fill="#9B9B9A" points="56.4299,51.9054 31.9019,51.9054 31.9019,38.7027 31.9019,25.5 56.4299,25.5 56.4299,39.4719"/>
+  </g>
+  <g id="line">
+    <rect fill="none" height="39.9982" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="50" x="11" y="15.9592"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="12.0584" x2="60.1261" y1="20.8126" y2="20.8126"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="27.25" x2="27.25" y1="55.3238" y2="20.8126"/>
+    <rect fill="none" height="11.0833" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="8" x="14.9843" y="24.9881"/>
+    <polygon fill="none" points="56.4299,51.9054 31.9019,51.9054 31.9019,38.7027 31.9019,25.5 56.4299,25.5 56.4299,39.4719" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="14.893" x2="19.9911" y1="42.7797" y2="42.7797"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="14.893" x2="23.2008" y1="46.7797" y2="46.7797"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="14.893" x2="19.9911" y1="50.7797" y2="50.7797"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="31.9019" x2="56.4299" y1="51.9054" y2="25.5"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="31.9019" x2="56.4299" y1="25.5" y2="51.9054"/>
+  </g>
+</svg>

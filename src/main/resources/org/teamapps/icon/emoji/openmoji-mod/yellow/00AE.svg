@@ -1,0 +1,16 @@
+<svg viewBox="6 6 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <circle cx="36" cy="36" fill="#fff" fill-rule="evenodd" paint-order="normal" r="26.68"/>
+  </g>
+  <g id="line">
+    <path clip-rule="evenodd" d="m27.45 49.57v-27.13h10.35c3.733 0 6.76 3.027 6.76 6.76s-3.027 6.756-6.76 6.756h-10.35" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="7.752"/>
+    <circle cx="36" cy="36" fill="none" paint-order="normal" r="26.68" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.74"/>
+    <path clip-rule="evenodd" d="m38.03 35.95 5.884 13.62" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="7.752"/>
+  </g>
+</svg>

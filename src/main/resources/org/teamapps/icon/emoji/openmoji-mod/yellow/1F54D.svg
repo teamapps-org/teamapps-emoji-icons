@@ -1,0 +1,34 @@
+<svg viewBox="7 7 58 58" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <path d="M52,33.7806V60H18V33.7806 c0-0.3181,0.1513-0.6173,0.4076-0.8057l15.9731-11.744c0.3555-0.3077,0.8831-0.3077,1.2386,0l15.9731,11.744 C51.8487,33.1634,52,33.4625,52,33.7806z" fill="#F4AA41" stroke="none" stroke-miterlimit="10" stroke-width="2"/>
+    <rect fill="#F4AA41" height="21" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="10" x="8" y="39"/>
+    <rect fill="#F4AA41" height="21" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="10" x="52" y="39"/>
+    <path d="M39,60h-8v-6c0-1.6569,1.3431-3,3-3h2c1.6569,0,3,1.3431,3,3V60z" fill="#A57939" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon fill="#3F3F3F" points="57,30 52,39 62,39" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon fill="#3F3F3F" points="13,30 8,39 18,39" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon fill="#FFFFFF" points="35,27 26.3397,42 43.6603,42" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon fill="#D0CFCE" points="35,47 43.6603,32 26.3397,32" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon fill="#D0CFCE" points="35,27 26.3397,42 43.6603,42" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+  <g id="line">
+    <path d="M52,33.7806V60H18V33.7806 c0-0.3181,0.1513-0.6173,0.4076-0.8057l15.9731-11.744c0.3555-0.3077,0.8831-0.3077,1.2386,0l15.9731,11.744 C51.8487,33.1634,52,33.4625,52,33.7806z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="2"/>
+    <rect fill="none" height="21" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="10" x="8" y="39"/>
+    <rect fill="none" height="21" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="10" x="52" y="39"/>
+    <path d="M39,60h-8v-6c0-1.6569,1.3431-3,3-3h2c1.6569,0,3,1.3431,3,3V60z" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M14,47h-2v-3c0-0.5523,0.4477-1,1-1l0,0" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M58,47h-2v-3c0-0.5523,0.4477-1,1-1l0,0" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="35" x2="35" y1="60" y2="51"/>
+    <polygon fill="none" points="57,30 52,39 62,39" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon fill="none" points="13,30 8,39 18,39" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon fill="none" points="35,27 26.3397,42 43.6603,42" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon fill="none" points="35,47 43.6603,32 26.3397,32" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon fill="none" points="35,27 26.3397,42 43.6603,42" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon fill="none" points="35,47 43.6603,32 26.3397,32" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

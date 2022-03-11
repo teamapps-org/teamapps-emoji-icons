@@ -1,0 +1,28 @@
+<svg viewBox="5 5 62 62" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <g id="_1F529">
+      <polygon fill="#9b9b9a" points="36.804 28.439 43.931 35.497 46.961 32.467 39.869 25.374 36.804 28.439"/>
+      <rect fill="#d0cfce" height="11.4993" transform="translate(31.1462 -26.1551) rotate(45)" width="23.948" x="35.1711" y="18.7696"/>
+      <polyline fill="#d0cfce" points="32.174 33.07 39.869 25.374 46.961 32.467 19.415 60.013 12.322 52.921 32.174 33.07"/>
+      <rect fill="#9b9b9a" height="1.9238" transform="translate(36.2899 -14.6866) rotate(45)" width="10.0303" x="30.858" y="35.5005"/>
+      <rect fill="#9b9b9a" height="1.9238" transform="translate(40.2342 -5.164) rotate(45)" width="10.0303" x="21.3355" y="45.0231"/>
+      <rect fill="#9b9b9a" height="1.9238" transform="translate(41.0795 -3.1235) rotate(45)" width="10.0303" x="19.2949" y="47.0636"/>
+      <rect fill="#9b9b9a" height="1.9238" transform="translate(41.9247 -1.0829) rotate(45)" width="10.0303" x="17.2544" y="49.1042"/>
+      <rect fill="#d0cfce" height="7.5228" transform="translate(38.2441 -9.9688) rotate(45)" width="20.0607" x="21.125" y="37.4189"/>
+    </g>
+  </g>
+  <g id="line">
+    <g id="_1F529-2">
+      <rect fill="none" height="11.4993" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(31.1462 -26.1551) rotate(45)" width="23.948" x="35.1711" y="18.7696"/>
+      <polyline fill="none" points="32.755 32.488 39.869 25.374 46.961 32.467 39.883 39.546" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <polyline fill="none" points="29.642 49.786 20.556 58.873 18.527 59.126 13.175 53.774 13.174 52.069 22.375 42.868" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect fill="none" height="7.5228" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(38.2441 -9.9688) rotate(45)" width="20.0607" x="21.125" y="37.4189"/>
+    </g>
+  </g>
+</svg>

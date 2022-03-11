@@ -1,0 +1,28 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="url(#yellow-gradient)" height="38" width="62" x="5" y="17"/>
+    <rect fill="#1e50a0" height="38" width="21" x="5" y="17"/>
+    <rect fill="#d22f27" height="38" width="21" x="46" y="17"/>
+    <g>
+      <path d="M42,32.1538V44a2.0059,2.0059,0,0,1-2,2H32a2.0059,2.0059,0,0,1-2-2V32.1538" fill="#d22f27"/>
+      <rect fill="#f1b31c" height="6.1538" width="6" x="36" y="32.1538"/>
+      <rect fill="#f1b31c" height="7.6923" width="6" x="30" y="38.3077"/>
+      <ellipse cx="36" cy="38.3077" fill="#6a462f" rx="2.25" ry="2.3077"/>
+      <g>
+        <path d="M30,27.5385A12.5962,12.5962,0,0,1,36,26" fill="none" stroke="#6a462f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path d="M42,27.5385A12.5962,12.5962,0,0,0,36,26" fill="none" stroke="#6a462f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line fill="none" stroke="#6a462f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="30" x2="42" y1="32.1538" y2="32.1538"/>
+        <path d="M42,32.1538V44a2.0059,2.0059,0,0,1-2,2H32a2.0059,2.0059,0,0,1-2-2V32.1538" fill="none" stroke="#6a462f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+  <g id="line">
+    <rect fill="none" height="38" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="62" x="5" y="17"/>
+  </g>
+</svg>

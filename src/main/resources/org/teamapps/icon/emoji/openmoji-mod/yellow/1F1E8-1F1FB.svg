@@ -1,0 +1,37 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#1e50a0" height="38" width="62" x="5" y="17"/>
+    <rect fill="#d22f27" height="6" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="62" x="5" y="41"/>
+    <g>
+      <g>
+        <circle cx="25.1" cy="51" fill="#f1b31c" r="1.75"/>
+        <circle cx="25.1" cy="37" fill="#f1b31c" r="1.75"/>
+      </g>
+      <g>
+        <circle cx="29.2145" cy="49.6631" fill="#f1b31c" r="1.75"/>
+        <circle cx="20.9855" cy="38.3369" fill="#f1b31c" r="1.75"/>
+      </g>
+      <g>
+        <circle cx="29.2145" cy="38.3369" fill="#f1b31c" r="1.75"/>
+        <circle cx="20.9855" cy="49.6631" fill="#f1b31c" r="1.75"/>
+      </g>
+      <g>
+        <circle cx="31.7574" cy="41.8369" fill="#f1b31c" r="1.75"/>
+        <circle cx="18.4426" cy="46.1631" fill="#f1b31c" r="1.75"/>
+      </g>
+      <g>
+        <circle cx="31.7574" cy="46.1631" fill="#f1b31c" r="1.75"/>
+        <circle cx="18.4426" cy="41.8369" fill="#f1b31c" r="1.75"/>
+      </g>
+    </g>
+  </g>
+  <g id="line">
+    <rect fill="none" height="38" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="62" x="5" y="17"/>
+  </g>
+</svg>

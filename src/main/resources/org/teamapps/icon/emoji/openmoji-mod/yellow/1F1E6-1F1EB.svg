@@ -1,0 +1,24 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#d22f27" height="38" width="62" x="5" y="17"/>
+    <rect height="38" width="21" x="5" y="17"/>
+    <rect fill="#5c9e31" height="38" width="21" x="46" y="17"/>
+    <path d="m36 48.88a12.89 12.89 0 0 1-9.111-22 0.845 0.845 0 0 1 1.195 1.195 11.2 11.2 0 1 0 15.83 0 0.845 0.845 0 1 1 1.195-1.195 12.89 12.89 0 0 1-9.111 22z" fill="#fff" stroke-width="0.845"/>
+    <path d="m39.38 34.52h-6.76a0.845 0.875 0 0 1 0-1.75h6.76a0.845 0.875 0 0 1 0 1.75z" fill="#fff" stroke-width="0.8598"/>
+    <circle cx="36" cy="30.3" fill="#fff" r="1.69" stroke-width="0.845"/>
+    <path d="m41.07 44.76h-10.14a0.845 0.875 0 0 1 0-1.75h10.14a0.845 0.875 0 0 1 0 1.75z" fill="#fff" stroke-width="0.8598"/>
+    <path d="m32.58 28.68v15.07" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.775"/>
+    <path d="m39.4 28.67v14.91" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.766"/>
+    <rect fill="#fff" fill-rule="evenodd" height="1.607" paint-order="normal" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.771" transform="rotate(-60)" width="4.161" x="-18.88" y="42.61"/>
+    <rect fill="#fff" fill-rule="evenodd" height="1.607" paint-order="normal" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.771" transform="rotate(60)" width="4.161" x="50.72" y="-19.75"/>
+  </g>
+  <g id="line">
+    <rect fill="none" height="38" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="62" x="5" y="17"/>
+  </g>
+</svg>

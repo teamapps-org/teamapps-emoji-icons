@@ -1,0 +1,22 @@
+<svg viewBox="10 10 52 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="line-supplement">
+    <line id="xx" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="36.8" x2="58.4" y1="37" y2="37"/>
+  </g>
+  <g id="color">
+    <polygon fill="#F4AA41" points="12.9,36 16.5,67 55.5,67 59.1,36"/>
+    <polygon fill="#E27022" points="45.1,36 41.5,67 55.5,67 59.1,36"/>
+    <rect fill="#FFFFFF" height="13.6" transform="matrix(0.157 -0.9876 0.9876 0.157 -16.8073 90.937)" width="13.3" x="38.214" y="48.5136"/>
+    <rect fill="#FFFFFF" height="12.7004" transform="matrix(0.9535 -0.3015 0.3015 0.9535 -11.5227 9.8218)" width="14.5005" x="18.808" y="35.8905"/>
+  </g>
+  <g id="line">
+    <polyline fill="none" points="60,28 55.5,67 16.5,67 12,28" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <rect fill="none" height="13.6" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.7923" transform="matrix(0.157 -0.9876 0.9876 0.157 -16.8073 90.937)" width="13.3" x="38.214" y="48.5136"/>
+    <rect fill="none" height="12.7004" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.8081" transform="matrix(0.9535 -0.3015 0.3015 0.9535 -11.5227 9.8218)" width="14.5005" x="18.808" y="35.8905"/>
+  </g>
+</svg>

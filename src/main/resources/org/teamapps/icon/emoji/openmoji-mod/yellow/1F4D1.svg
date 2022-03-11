@@ -1,0 +1,28 @@
+<svg viewBox="6 6 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <path d="m14.85 64.04 0.05537-5.257-5.343-0.03324v-50.79h28.89l5.287 5.291h11.3v50.79z" fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="#d0cfce" points="54.92 23 44 11.65 44 23" stroke-width="0.9454" transform="matrix(1.057 0 0 1.058 -8.414 -4.737)"/>
+    <polygon fill="#92d3f5" points="59.55 29.04 67 29.04 67 34 59.55 34 57.71 31.52" stroke-width="0.9454" transform="matrix(1.057 0 0 1.058 -8.414 -4.737)"/>
+    <polygon fill="#ea5a47" points="54.55 48 62 48 62 52.96 54.55 52.96 52.71 50.48" stroke-width="0.9454" transform="matrix(1.057 0 0 1.058 -8.414 -4.737)"/>
+  </g>
+  <g id="line">
+    <polyline fill="none" points="60 28.75 60 17 49.32 17" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.889" transform="matrix(1.059 0 0 1.058 -8.462 -4.752)"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="55.06" x2="55.06" y1="45.53" y2="31.68"/>
+    <polyline fill="none" points="22 63.09 22 65 60 65 60 53.33" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.889" transform="matrix(1.059 0 0 1.058 -8.462 -4.752)"/>
+    <polyline fill="none" points="55 48 55 22.68 44.32 12 17 12 17 60 55 60 55 53" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.889" transform="matrix(1.059 0 0 1.058 -8.462 -4.752)"/>
+    <polyline fill="none" points="55 23 44.3 23 44.32 12" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.889" transform="matrix(1.059 0 0 1.058 -8.462 -4.752)"/>
+    <polygon fill="none" points="59.55 34 57.71 31.52 59.55 29.04 67 29.04 67 34" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.889" transform="matrix(1.059 0 0 1.058 -8.462 -4.752)"/>
+    <polygon fill="none" points="54.55 52.96 52.71 50.48 54.55 48 62 48 62 52.96" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.889" transform="matrix(1.059 0 0 1.058 -8.462 -4.752)"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="15.89" x2="30.71" y1="17.48" y2="17.48"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="15.89" x2="43.41" y1="25.94" y2="25.94"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="15.89" x2="43.41" y1="33.35" y2="33.35"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="15.89" x2="43.41" y1="41.82" y2="41.82"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="15.89" x2="43.41" y1="50.29" y2="50.29"/>
+  </g>
+</svg>

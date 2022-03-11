@@ -1,0 +1,20 @@
+<svg viewBox="9 9 54 54" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#ea5a47" height="4.8074" width="9" x="11" y="18.1926"/>
+    <rect fill="#b1cc33" height="4.8074" width="9" x="22.8604" y="18.1926"/>
+    <rect fill="#92d3f5" height="4.8074" width="9" x="34.7209" y="18.1926"/>
+    <rect fill="#d0cfce" height="30" width="50" x="11" y="23"/>
+  </g>
+  <g id="line">
+    <path d="M11.9008,18.1926h7.1985A.9008.9008,0,0,1,20,19.0934V23a0,0,0,0,1,0,0H11a0,0,0,0,1,0,0V19.0934A.9008.9008,0,0,1,11.9008,18.1926Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M23.7612,18.1926H30.96a.9008.9008,0,0,1,.9008.9008V23a0,0,0,0,1,0,0h-9a0,0,0,0,1,0,0V19.0934A.9008.9008,0,0,1,23.7612,18.1926Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M35.6216,18.1926H42.82a.9008.9008,0,0,1,.9008.9008V23a0,0,0,0,1,0,0h-9a0,0,0,0,1,0,0V19.0934A.9008.9008,0,0,1,35.6216,18.1926Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect fill="none" height="30" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="50" x="11" y="23"/>
+  </g>
+</svg>

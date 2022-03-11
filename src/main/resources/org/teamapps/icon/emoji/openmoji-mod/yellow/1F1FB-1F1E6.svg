@@ -1,0 +1,36 @@
+<svg viewBox="7 7 58 58" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#fff" height="38" width="38" x="17" y="17"/>
+    <rect fill="url(#yellow-gradient)" height="38" width="19" x="17" y="17"/>
+    <g>
+      <ellipse cx="44.7274" cy="29.8602" fill="#9b9b9a" rx="1.9462" ry="2.703"/>
+      <g>
+        <line fill="none" stroke="url(#yellow-gradient)" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9103" x1="43.6125" x2="45.8423" y1="28.7453" y2="28.7453"/>
+        <line fill="none" stroke="url(#yellow-gradient)" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9103" x1="43.6125" x2="45.8423" y1="29.8602" y2="29.8602"/>
+        <line fill="none" stroke="url(#yellow-gradient)" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9103" x1="43.6125" x2="45.8423" y1="30.9751" y2="30.9751"/>
+      </g>
+    </g>
+    <path d="M40.2017,42.2844c2.54,2.54,6.8992,2.29,9.747-.5575" fill="none" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1468"/>
+    <g>
+      <path d="M47.9343,36.1387a3.2621,3.2621,0,1,0,3.9646,2.3588A3.2622,3.2622,0,0,0,47.9343,36.1387Zm1.3,5.1189a2.0193,2.0193,0,1,1,1.46-2.4542A2.0193,2.0193,0,0,1,49.2342,41.2576Z" fill="#9b9b9a"/>
+      <rect fill="#9b9b9a" height="8.8114" rx="0.4164" ry="0.4164" transform="translate(-11.2822 44.7052) rotate(-48.8483)" width="1.4686" x="42.8454" y="30.3687"/>
+      <rect fill="#9b9b9a" height="1.8096" rx="0.369" ry="0.369" transform="translate(31.8635 -18.3991) rotate(41.1517)" width="1.4686" x="39.7038" y="32.3358"/>
+      <rect fill="#9b9b9a" height="1.8096" rx="0.369" ry="0.369" transform="translate(33.1492 -19.0905) rotate(41.1517)" width="1.4686" x="41.2676" y="33.7025"/>
+    </g>
+    <g>
+      <path d="M37.5178,38.8188a3.262,3.262,0,1,0,3.8347-2.5645A3.262,3.262,0,0,0,37.5178,38.8188Zm1.2189.2419a2.0193,2.0193,0,1,1,1.5875,2.3739A2.0192,2.0192,0,0,1,38.7367,39.0607Z" fill="url(#yellow-gradient)"/>
+      <rect fill="url(#yellow-gradient)" height="8.8114" rx="0.4164" ry="0.4164" transform="translate(52.5644 91.5427) rotate(-134.1739)" width="1.4686" x="44.8948" y="30.2566"/>
+      <rect fill="url(#yellow-gradient)" height="1.8096" rx="0.369" ry="0.369" transform="translate(106.5753 22.6824) rotate(135.8261)" width="1.4686" x="47.9512" y="32.0601"/>
+      <rect fill="url(#yellow-gradient)" height="1.8096" rx="0.369" ry="0.369" transform="translate(105.0258 26.2056) rotate(135.8261)" width="1.4686" x="46.4616" y="33.5073"/>
+    </g>
+  </g>
+  <g id="line">
+    <rect fill="none" height="38" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="38" x="17" y="17"/>
+  </g>
+</svg>

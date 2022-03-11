@@ -1,0 +1,30 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#5c9e31" height="38" width="62" x="5" y="17"/>
+    <rect fill="#d22f27" height="13" width="62" x="5" y="17"/>
+    <rect fill="#fff" height="12" width="62" x="5" y="30"/>
+    <g>
+      <circle cx="36" cy="35.1554" fill="url(#yellow-gradient)" r="0.4969" stroke="url(#yellow-gradient)" stroke-miterlimit="10" stroke-width="0.9939"/>
+      <rect fill="url(#yellow-gradient)" height="3.9755" rx="0.306" ry="0.306" width="0.9278" x="35.536" y="35.1553"/>
+      <path d="M38.982,40.1247a4.2141,4.2141,0,0,0-5.9632,0" fill="none" stroke="url(#yellow-gradient)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9877"/>
+    </g>
+    <g>
+      <circle cx="41" cy="37" fill="url(#yellow-gradient)" r="0.5" stroke="url(#yellow-gradient)" stroke-miterlimit="10" stroke-width="1"/>
+      <circle cx="40.2" cy="34.6" fill="url(#yellow-gradient)" r="0.5" stroke="url(#yellow-gradient)" stroke-miterlimit="10" stroke-width="1"/>
+      <circle cx="38.4" cy="32.9" fill="url(#yellow-gradient)" r="0.5" stroke="url(#yellow-gradient)" stroke-miterlimit="10" stroke-width="1"/>
+      <circle cx="36" cy="32.2" fill="url(#yellow-gradient)" r="0.5" stroke="url(#yellow-gradient)" stroke-miterlimit="10" stroke-width="1"/>
+      <circle cx="33.6" cy="32.9" fill="url(#yellow-gradient)" r="0.5" stroke="url(#yellow-gradient)" stroke-miterlimit="10" stroke-width="1"/>
+      <circle cx="31.8" cy="34.6" fill="url(#yellow-gradient)" r="0.5" stroke="url(#yellow-gradient)" stroke-miterlimit="10" stroke-width="1"/>
+      <circle cx="31" cy="37" fill="url(#yellow-gradient)" r="0.5" stroke="url(#yellow-gradient)" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+  <g id="line">
+    <rect fill="none" height="38" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="62" x="5" y="17"/>
+  </g>
+</svg>

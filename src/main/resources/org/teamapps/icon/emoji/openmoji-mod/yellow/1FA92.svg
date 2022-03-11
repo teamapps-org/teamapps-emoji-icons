@@ -1,0 +1,20 @@
+<svg viewBox="4 4 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <path d="M32.5,22.5s0,38,1,42,4,4,5,0c2.0308-8.123,1-42,1-42" fill="#92d3f5"/>
+    <path d="M22.5,15.5s10,5,10,7h7c0-1.6987,7.214-5.5616,9.3876-6.6869.3855-.2.6124-.3131.6124-.3131Z" fill="#92d3f5"/>
+    <rect fill="#d0cfce" height="9" rx="2.2437" ry="2.2437" width="32" x="20" y="6.5"/>
+  </g>
+  <g id="line">
+    <path d="M32.5,22.5s0,38,1,42,4,4,5,0c2.0308-8.123,1-42,1-42" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <rect fill="none" height="9" rx="2.2437" ry="2.2437" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" width="32" x="20" y="6.5"/>
+    <path d="M22.5,15.5s10,5,10,7" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M39.5,22.5c0-1.6987,7.214-5.5616,9.3876-6.6869.3855-.2.6124-.3131.6124-.3131" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2" x1="20" x2="52" y1="11" y2="11"/>
+  </g>
+</svg>

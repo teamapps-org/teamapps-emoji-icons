@@ -1,0 +1,34 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#d22f27" height="38" width="62" x="5" y="17"/>
+    <rect fill="#1e50a0" height="7" stroke="#f1b31c" stroke-miterlimit="10" width="62" x="5" y="48"/>
+    <rect fill="#1e50a0" height="7" stroke="#f1b31c" stroke-miterlimit="10" width="62" x="5" y="17"/>
+    <line fill="none" stroke="url(#yellow-gradient)" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9681" x1="19.3616" x2="56.1629" y1="28.9275" y2="28.9275"/>
+    <line fill="none" stroke="url(#yellow-gradient)" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9681" x1="16.0161" x2="52.8173" y1="33.1094" y2="33.1094"/>
+    <line fill="none" stroke="url(#yellow-gradient)" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9246" x1="11.6763" x2="60.5027" y1="36.4783" y2="36.4783"/>
+    <g>
+      <path d="M48.6477,32.309a17.8474,17.8474,0,0,0-25.2386,0l-3.9549,3.9544a.3035.3035,0,0,0,0,.4293l3.9549,3.9544a17.8474,17.8474,0,0,0,25.2386,0l3.9549-3.9544a.3035.3035,0,0,0,0-.4293Z"/>
+      <path d="M36.09,45.6893A.3112.3112,0,0,0,36.4018,46a17.4822,17.4822,0,0,0,12.1535-5.1379l4.1695-4.169a.3036.3036,0,0,0,0-.4293l-4.1695-4.169a17.4813,17.4813,0,0,0-12.1535-5.1382.3111.3111,0,0,0-.3123.3106Z" fill="#fff"/>
+    </g>
+    <g>
+      <line fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9361" x1="23.8897" x2="33.5703" y1="34.3001" y2="34.3001"/>
+      <line fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9361" x1="23.8897" x2="33.5703" y1="38.6564" y2="38.6564"/>
+    </g>
+    <g>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9361" x1="38.4106" x2="48.0911" y1="34.3001" y2="34.3001"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9361" x1="38.4106" x2="48.0911" y1="38.6564" y2="38.6564"/>
+    </g>
+    <circle cx="31.1189" cy="30.6452" fill="#1e50a0" r="2.9042" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9681"/>
+    <circle cx="12.7661" cy="38.2922" fill="#1e50a0" r="2.9042" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9681"/>
+    <circle cx="60.1776" cy="38.2922" fill="#1e50a0" r="2.9042" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.9681"/>
+  </g>
+  <g id="line">
+    <rect fill="none" height="38" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="62" x="5" y="17"/>
+  </g>
+</svg>

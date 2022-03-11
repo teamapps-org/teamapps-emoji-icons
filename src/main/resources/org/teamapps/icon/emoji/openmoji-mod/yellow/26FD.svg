@@ -1,0 +1,28 @@
+<svg viewBox="7 7 58 58" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#d0cfce" height="40" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="20" x="15" y="16"/>
+    <polyline fill="#ea5a47" points="35,46 35,36 63,36 63,46" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline fill="#d0cfce" points="63,46 63,56 35,56 35,46" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <rect fill="#92d3f5" height="5" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="9" x="20" y="21"/>
+    <rect fill="#d0cfce" height="10" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="17" x="35" y="18"/>
+  </g>
+  <g id="line">
+    <rect fill="none" height="40" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="20" x="15" y="16"/>
+    <polyline fill="none" points="35,46 35,36 63,36 63,46" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline fill="none" points="63,46 63,56 35,56 35,46" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <rect fill="none" height="5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="9" x="20" y="21"/>
+    <rect fill="none" height="10" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="17" x="35" y="18"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="41" x2="46" y1="21" y2="21"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="41" x2="46" y1="24" y2="24"/>
+    <polyline fill="none" points="10,34 10,30 9,28" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M8,37v-3.04C8,33.432,8.45,33,9,33h2c0.55,0,1,0.432,1,0.96V37" fill="#000000" stroke="none"/>
+    <path d="M13,38c0,0.55-0.3375,1-0.75,1h-4.5C7.3375,39,7,38.55,7,38s0.3375-1,0.75-1h4.5C12.6625,37,13,37.45,13,38z" fill="#000000" stroke="none"/>
+    <path d="M12,52c-4-6-1-7-2-14" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

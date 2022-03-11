@@ -1,0 +1,73 @@
+<svg viewBox="10 10 52 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="line-supplement">
+    <rect fill="#000" height="4" width="4" x="20" y="20"/>
+    <rect fill="#000" height="4" width="4" x="20" y="48"/>
+    <rect fill="#000" height="4" width="4" x="48" y="20"/>
+  </g>
+  <g id="color">
+    <rect fill="#fff" height="48" stroke="#000" stroke-linejoin="round" stroke-width="2" width="48" x="12" y="12"/>
+    <rect fill="#3F3F3F" height="4" stroke="#000" stroke-linejoin="round" stroke-width="2" width="4" x="20" y="20"/>
+    <rect fill="#3F3F3F" height="4" stroke="#000" stroke-linejoin="round" stroke-width="2" width="4" x="20" y="48"/>
+    <rect fill="#3F3F3F" height="4" stroke="#000" stroke-linejoin="round" stroke-width="2" width="4" x="48" y="20"/>
+  </g>
+  <g id="line">
+    <circle cx="18" cy="40" fill="#000" r="1"/>
+    <circle cx="16" cy="38" fill="#000" r="1"/>
+    <circle cx="20" cy="38" fill="#000" r="1"/>
+    <circle cx="34" cy="46" fill="#000" r="1"/>
+    <circle cx="40" cy="38" fill="#000" r="1"/>
+    <circle cx="40" cy="28" fill="#000" r="1"/>
+    <circle cx="32" cy="16" fill="#000" r="1"/>
+    <circle cx="46" cy="32" fill="#000" r="1"/>
+    <circle cx="52" cy="32" fill="#000" r="1"/>
+    <circle cx="52" cy="44" fill="#000" r="1"/>
+    <circle cx="54" cy="48" fill="#000" r="1"/>
+    <circle cx="56" cy="56" fill="#000" r="1"/>
+    <circle cx="32" cy="56" fill="#000" r="1"/>
+    <circle cx="44" cy="56" fill="#000" r="1"/>
+    <circle cx="46" cy="54" fill="#000" r="1"/>
+    <circle cx="44" cy="52" fill="#000" r="1"/>
+    <circle cx="16" cy="32" fill="#000" r="1"/>
+    <circle cx="40" cy="54" fill="#000" r="1"/>
+    <rect fill="none" height="48" stroke="#000" stroke-linejoin="round" stroke-width="2" width="48" x="12" y="12"/>
+    <rect fill="none" height="12" stroke="#000" stroke-linejoin="round" stroke-width="2" width="12" x="16" y="16"/>
+    <rect fill="none" height="4" stroke="#000" stroke-linejoin="round" stroke-width="2" width="4" x="20" y="20"/>
+    <rect fill="none" height="12" stroke="#000" stroke-linejoin="round" stroke-width="2" width="12" x="16" y="44"/>
+    <rect fill="none" height="4" stroke="#000" stroke-linejoin="round" stroke-width="2" width="4" x="20" y="48"/>
+    <rect fill="none" height="12" stroke="#000" stroke-linejoin="round" stroke-width="2" width="12" x="44" y="16"/>
+    <rect fill="none" height="4" stroke="#000" stroke-linejoin="round" stroke-width="2" width="4" x="48" y="20"/>
+    <path d="M18 36V34H26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M20 34V32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M24 34V40" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M24 38H26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M38 32V30" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M56 34H54" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M42 42H44V40" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M28 32H30" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M34 32H40" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M38 16V20H36V28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M36 26H32V28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M36 20H32" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M36 22H34V18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M28 36H36" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M30 36V40H28" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M34 36V38" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M32 44V42H38V48H42V46H50V56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M36 40V44H42M46 40H42V48H44" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M48 34V38H50V42H48V46" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M50 38V36H52" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M52 50H48V52" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M32 52H34V54H36V50" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M56 32V38H54" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M44 36V34" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M56 42V44" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M54 52H56" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M40 22V24" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

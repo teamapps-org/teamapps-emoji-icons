@@ -1,0 +1,28 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#ea5a47" height="52.2643" rx="11" width="32.7367" x="19.125" y="9.871"/>
+    <g>
+      <path d="M46.4141,10.7429,40.2278,9.871c7.6518,1.92,6.6782,13.5373,6.7861,15.7853,1.7573,36.6011-12.681,36.6353-13.409,36.6779L43.0106,62h.0607A9.1128,9.1128,0,0,0,52,52.9873V19.4727S51.3852,13.6529,46.4141,10.7429Z" fill="#d22f27"/>
+      <path d="M33.6038,62.41l-.05.0013S33.5718,62.4119,33.6038,62.41Z" fill="#d22f27"/>
+    </g>
+    <rect fill="#fff" height="35.6176" rx="2" width="12.2864" x="29.3502" y="18.3318"/>
+    <polyline fill="#3f3f3f" points="26.84 8.018 26.84 4.972 44.146 4.972 44.146 8.018"/>
+    <polyline fill="#3f3f3f" points="44.146 64.184 44.146 67.05 26.84 67.05 26.84 64.184"/>
+  </g>
+  <g id="line">
+    <polyline fill="none" points="26.84 7.481 26.84 4.972 44.146 4.972 44.146 7.481" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="44.146 64.657 44.146 67.05 26.84 67.05 26.84 64.657" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect fill="none" height="52.2643" rx="11" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="32.7367" x="19.125" y="9.871"/>
+    <g>
+      <rect fill="none" height="8.9339" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" width="8.3074" x="31.3396" y="31.6894"/>
+      <rect fill="none" height="8.9339" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" width="8.3074" x="31.3396" y="42.5391"/>
+      <rect fill="none" height="8.9339" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" width="8.3074" x="31.3396" y="20.8397"/>
+    </g>
+  </g>
+</svg>

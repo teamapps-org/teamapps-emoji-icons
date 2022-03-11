@@ -1,0 +1,23 @@
+<svg viewBox="12 12 48 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <circle cx="36.0526" cy="36.3321" fill="#d0cfce" r="21.5814"/>
+    <circle cx="36.0526" cy="36.3321" fill="#92d3f5" r="16.9387"/>
+  </g>
+  <g id="line">
+    <circle cx="36.0526" cy="36.3321" fill="none" r="16.9387" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+    <circle cx="36.0526" cy="36.3321" fill="none" r="21.5814" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="27.922" x2="32.0375" y1="28.9292" y2="26.219"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="28.3639" x2="26.9281" y1="42.5787" y2="37.8648"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="45.7305" x2="40.8795" y1="34.5571" y2="33.6905"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="40.4157" x2="41.6773" y1="44.4103" y2="39.6469"/>
+    <circle cx="33.0563" cy="35.0695" fill="none" r="0.8293" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <circle cx="40.8696" cy="27.549" fill="none" r="0.8293" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <circle cx="35.2804" cy="47.5386" fill="none" r="0.8293" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

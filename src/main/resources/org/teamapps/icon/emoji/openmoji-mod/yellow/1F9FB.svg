@@ -1,0 +1,21 @@
+<svg viewBox="6 6 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <path d="m11.41 56.6c8.303 12.49 32.7 6.093 39.05 3.446l0.7008-44.25c-0.9537-3.003-22.19-15.83-39.75-0.3751z" fill="#fff"/>
+    <path d="m47.37 61.41c4.514-3.053 13.23-9.667 13.23-9.667v-38.44c-2.321 2.072-9.972 5.775-13.23 6.769" fill="#d0cfce"/>
+    <ellipse cx="30.85" cy="15.3" fill="#fff" rx="4.666" ry="2.13"/>
+  </g>
+  <g id="line">
+    <ellipse cx="31.23" cy="15.32" fill="none" rx="20.18" ry="7.368" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="m11.05 14.93 1e-6 41.76c0 4.074 9.037 7.363 20.18 7.363 6.02 0 10.53-0.6946 14.26-1.873 8.515-2.892 15.46-10.42 15.46-10.42v-38.98c-3.73 3.326-13.38 6.865-13.38 6.865" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="31.23" x2="31.23" y1="22.69" y2="26.01"/>
+    <line fill="none" stroke="#000" stroke-dasharray="5.2132, 5.2132" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="31.23" x2="31.23" y1="32.96" y2="57.25"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="31.23" x2="31.23" y1="60.72" y2="64.05"/>
+    <ellipse cx="30.79" cy="15.31" fill="none" rx="4.739" ry="2.16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#d22f27" height="38" width="62" x="5" y="17"/>
+    <rect fill="#5c9e31" height="38" width="21" x="5" y="17"/>
+    <circle cx="26" cy="36" fill="none" r="12" stroke="url(#yellow-gradient)" stroke-miterlimit="10" stroke-width="2"/>
+    <line fill="none" stroke="url(#yellow-gradient)" stroke-linecap="round" stroke-linejoin="round" x1="26" x2="26" y1="24" y2="48"/>
+    <polygon fill="none" points="26 39.5 17 44 35 44 26 39.5" stroke="url(#yellow-gradient)" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon fill="none" points="26 33.5 35 28 26.5 29.5 17 28 26 33.5" stroke="url(#yellow-gradient)" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon fill="none" points="38 36 26 41 14 36 26 31 38 36" stroke="url(#yellow-gradient)" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M20.2,29H31.8V39.1c0,2.5-2.6,4.6-5.8,4.6h0c-3.2,0-5.8-2.1-5.8-4.6V29Z" fill="#fff" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="26" cy="32.8" fill="#1e50a0" r="0.7" stroke="#1e50a0" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="26" cy="38.7" fill="#1e50a0" r="0.7" stroke="#1e50a0" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="26" cy="35.7" fill="#1e50a0" r="0.7" stroke="#1e50a0" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="29" cy="35.7" fill="#1e50a0" r="0.7" stroke="#1e50a0" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="23" cy="35.7" fill="#1e50a0" r="0.7" stroke="#1e50a0" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="line">
+    <rect fill="none" height="38" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="62" x="5" y="17"/>
+  </g>
+</svg>

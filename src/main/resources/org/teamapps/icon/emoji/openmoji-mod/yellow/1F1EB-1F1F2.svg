@@ -1,0 +1,22 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#92d3f5" height="38" width="62" x="5" y="17"/>
+    <g>
+      <polygon fill="#fff" points="41.523 34.356 46.477 36.045 41.599 37.501 44.538 33.456 44.66 38.544 41.523 34.356" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon fill="#fff" points="30.477 37.644 25.523 35.955 30.401 34.499 27.462 38.544 27.34 33.456 30.477 37.644" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <polygon fill="#fff" points="34.356 30.477 36.045 25.523 37.501 30.401 33.456 27.462 38.544 27.34 34.356 30.477" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon fill="#fff" points="37.644 41.523 35.955 46.477 34.499 41.599 38.544 44.538 33.456 44.66 37.644 41.523" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <g id="line">
+    <rect fill="none" height="38" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="62" x="5" y="17"/>
+  </g>
+</svg>

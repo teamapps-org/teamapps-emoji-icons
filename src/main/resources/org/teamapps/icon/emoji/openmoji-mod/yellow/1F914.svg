@@ -1,0 +1,21 @@
+<svg viewBox="11 11 50 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <circle cx="36" cy="36.2" fill="url(#yellow-gradient)" r="24"/>
+    <path d="m 15.123729,48.386441 c -1,1.6 -1.2,3.7 -0.5,5.5 1.1,3.3 4,5.2 7.2,4.2 l 4.9,-1.4 1,-0.3 c 0.8,-0.2 1.3,-1.1 1.1,-1.8 v 0 c -0.2,-0.5 -0.6,-0.9 -1.2,-1 l 1.2,-0.3 c 0.8,-0.2 1.3,-1.1 1.1,-1.8 -0.2,-0.5 -0.6,-1 -1.2,-1.1 l 1.2,-0.4 c 0.8,-0.2 1.3,-1.1 1.1,-1.8 -0.1,-0.5 -0.5,-0.9 -1,-1 l 6.4,-1.9 c 0.8,-0.2 1.3,-1.1 1.1,-1.8 -0.2,-0.7 -1.1,-1.3 -1.8,-1.1 v 0 l -10.2,3 -5.1,1.5 0.6,-7.8 c 0.1,-0.9 -1.5,-1.2 -2.1,0.2 z" fill="url(#yellow-gradient)"/>
+  </g>
+  <g id="line">
+    <path d="m 28.671186,41.067797 c 2.4,-0.7 11.9,0.5 14.1,2.1" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M22.4,22.5c1.3-0.9,2.8-1.3,4.4-1.1c1.6,0,3.1,0.6,4.2,1.7" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M51.1,26.5c-2.7-0.7-5.5-0.8-8.2-0.3" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M 26.135593,57.10339 C 49.529379,65.772002 62.030318,45.828805 58.2,30.2 55.168612,17.83106 42.3,10.7 30,14 20,16.7 13,25.8 13,36.2 c 0,4.6 0.942373,7.827119 2.779661,10.559322" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M31,30.7c0,1.7-1.3,3-3,3s-3-1.3-3-3s1.3-3,3-3S31,29,31,30.7"/>
+    <path d="M48,33.7c0,1.7-1.3,3-3,3s-3-1.3-3-3s1.3-3,3-3S48,32,48,33.7"/>
+    <path d="m 15.123729,48.386441 c -1,1.6 -1.2,3.7 -0.5,5.5 1.1,3.3 4,5.2 7.2,4.2 l 4.9,-1.4 1,-0.3 c 0.8,-0.2 1.3,-1.1 1.1,-1.8 v 0 c -0.2,-0.5 -0.6,-0.9 -1.2,-1 l 1.2,-0.3 c 0.8,-0.2 1.3,-1.1 1.1,-1.8 -0.2,-0.5 -0.6,-1 -1.2,-1.1 l 1.2,-0.4 c 0.8,-0.2 1.3,-1.1 1.1,-1.8 -0.1,-0.5 -0.5,-0.9 -1,-1 l 6.4,-1.9 c 0.8,-0.2 1.3,-1.1 1.1,-1.8 -0.2,-0.7 -1.1,-1.3 -1.8,-1.1 v 0 l -10.2,3 -5.1,1.5 0.6,-7.8 c 0.1,-0.9 -1.5,-1.2 -2.1,0.2 z" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

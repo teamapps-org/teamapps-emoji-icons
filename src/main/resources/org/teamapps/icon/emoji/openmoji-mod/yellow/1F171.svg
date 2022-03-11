@@ -1,0 +1,27 @@
+<svg viewBox="10 10 52 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="line-supplement">
+    <g id="B_Button">
+      <path d="M59.0349,60h-46.07A.9679.9679,0,0,1,12,59.0349v-46.07A.9679.9679,0,0,1,12.9651,12h46.07A.9679.9679,0,0,1,60,12.9651v46.07A.9679.9679,0,0,1,59.0349,60Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M37.7628,35.2283h-8.42v-11h8.42a5.5,5.5,0,0,1,5.5,5.5h0A5.5,5.5,0,0,1,37.7628,35.2283Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M37.7628,46.2284h-8.42v-11h8.42a5.5,5.5,0,0,1,5.5,5.5h0A5.5,5.5,0,0,1,37.7628,46.2284Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+  <g id="color">
+    <g id="color-2">
+      <path d="M59.0349,60h-46.07A.9679.9679,0,0,1,12,59.0349v-46.07A.9679.9679,0,0,1,12.9651,12h46.07A.9679.9679,0,0,1,60,12.9651v46.07A.9679.9679,0,0,1,59.0349,60Z" fill="#d22f27"/>
+    </g>
+  </g>
+  <g id="color-foreground">
+    <g id="B_Button-2">
+      <path d="M59.0349,60h-46.07A.9679.9679,0,0,1,12,59.0349v-46.07A.9679.9679,0,0,1,12.9651,12h46.07A.9679.9679,0,0,1,60,12.9651v46.07A.9679.9679,0,0,1,59.0349,60Z" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M37.7628,35.2283h-8.42v-11h8.42a5.5,5.5,0,0,1,5.5,5.5h0A5.5,5.5,0,0,1,37.7628,35.2283Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M37.7628,46.2284h-8.42v-11h8.42a5.5,5.5,0,0,1,5.5,5.5h0A5.5,5.5,0,0,1,37.7628,46.2284Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

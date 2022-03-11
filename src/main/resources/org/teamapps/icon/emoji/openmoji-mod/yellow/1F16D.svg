@@ -1,0 +1,16 @@
+<svg viewBox="6 6 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <circle cx="36" cy="36" fill="#fff" fill-rule="evenodd" paint-order="normal" r="26.68"/>
+  </g>
+  <g id="line">
+    <path clip-rule="evenodd" d="m52.34 44.08c-1.288 1.142-2.984 1.837-4.845 1.837-4.03 0-7.301-3.268-7.301-7.301v-5.84 5.84-5.84c0-4.033 3.271-7.301 7.301-7.301 1.86 0 3.557 0.695 4.845 1.837" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5.84"/>
+    <path clip-rule="evenodd" d="m31.78 44.69c-1.288 1.142-2.984 1.837-4.845 1.837-4.03 0-7.301-3.268-7.301-7.301v-5.84 5.84-5.84c0-4.033 3.271-7.301 7.301-7.301 1.86 0 3.557 0.695 4.845 1.837" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5.84"/>
+    <circle cx="36" cy="36" fill="none" paint-order="normal" r="26.68" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.74"/>
+  </g>
+</svg>

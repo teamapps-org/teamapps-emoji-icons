@@ -1,0 +1,19 @@
+<svg viewBox="7 7 58 58" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="line-supplement">
+    <path d="M37.0606 11L27.8519 26.8699L9.5 29.5436L22.7851 42.4838L19.6568 60.7637L37.0606 52.5V11Z" fill="#000"/>
+  </g>
+  <g id="color">
+    <path d="M35 11.5L44.6481 27.3699L63 30.0436L49.7149 42.9838L52.8432 61.2637L35 52.5V11.5Z" fill="url(#yellow-gradient)"/>
+    <path d="M37.0606 11L27.8519 26.8699L9.5 29.5436L22.7851 42.4838L19.6568 60.7637L37.0606 52.5V11Z" fill="#3F3F3F"/>
+  </g>
+  <g id="line">
+    <path d="M35.9928 10.7363L27.7913 27.3699L9.43939 30.0436L22.7245 42.9838L19.5962 61.2637L36.0084 52.6276L52.427 61.2515L49.2851 42.9739L62.5606 30.0239L44.2067 27.3638L35.9928 10.7363Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line stroke="#000" stroke-linecap="round" stroke-width="2" x1="36" x2="36" y1="12" y2="49"/>
+  </g>
+</svg>

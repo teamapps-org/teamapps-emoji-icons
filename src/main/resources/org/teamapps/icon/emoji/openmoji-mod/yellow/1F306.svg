@@ -1,0 +1,46 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#e27022" height="64.1019" width="64" x="4" y="3.8981"/>
+    <polyline fill="#9b9b9a" points="9.923 46 9.923 29 19.923 29 19.923 46"/>
+    <rect fill="#9b9b9a" height="35" width="13" x="33.9231" y="33"/>
+    <polyline fill="#d0cfce" points="50.923 68 50.923 37 66.923 37 66.923 68"/>
+    <polyline fill="#d0cfce" points="4.923 68 4.923 46 38.923 46 38.923 68"/>
+    <rect fill="url(#yellow-gradient)" height="5.9965" width="2.9913" x="8.9231" y="49.0035"/>
+    <rect fill="url(#yellow-gradient)" height="5.9965" width="2.9913" x="14.9231" y="49.0035"/>
+    <rect fill="url(#yellow-gradient)" height="5.9965" width="2.9913" x="26.9231" y="49.0035"/>
+    <rect fill="url(#yellow-gradient)" height="5.9965" width="2.9913" x="32.9231" y="49.0035"/>
+    <rect fill="url(#yellow-gradient)" height="5.9965" width="2.9913" x="54.9231" y="40.0035"/>
+    <rect fill="url(#yellow-gradient)" height="5.9965" width="2.9913" x="60.9231" y="50.0035"/>
+    <rect fill="url(#yellow-gradient)" height="5.9965" width="2.9913" x="60.9231" y="60.0035"/>
+    <rect fill="url(#yellow-gradient)" height="5.9965" width="2.9913" x="54.9231" y="60.0035"/>
+    <rect fill="url(#yellow-gradient)" height="5.9965" width="2.9913" x="32.9231" y="59.0035"/>
+    <rect fill="url(#yellow-gradient)" height="5.9965" width="2.9913" x="20.9231" y="59.0035"/>
+    <rect fill="url(#yellow-gradient)" height="5.9965" width="2.9913" x="8.9231" y="59.0035"/>
+  </g>
+  <g id="line">
+    <polyline fill="none" points="50.924 66.629 50.924 36.629 66.924 36.629 66.924 66.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="4.924 66.629 4.924 45.629 38.924 45.629 38.924 66.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="34.924 42.629 34.924 32.629 46.924 32.629 46.924 66.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="10.924 42.629 10.924 28.629 18.924 28.629 18.924 42.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="56.924 45.629 54.924 45.629 54.924 40.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="62.924 55.629 60.924 55.629 60.924 50.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="28.924 54.629 26.924 54.629 26.924 49.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="34.924 54.629 32.924 54.629 32.924 49.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="34.924 64.629 32.924 64.629 32.924 59.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="16.924 54.629 14.924 54.629 14.924 49.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="10.924 54.629 8.924 54.629 8.924 49.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="10.924 64.629 8.924 64.629 8.924 59.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="22.924 64.629 20.924 64.629 20.924 59.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="56.924 65.629 54.924 65.629 54.924 60.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="62.924 65.629 60.924 65.629 60.924 60.629" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="14.9236" x2="14.9236" y1="31.629" y2="42.629"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="38.9236" x2="38.9236" y1="35.629" y2="42.629"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="42.9236" x2="42.9236" y1="35.629" y2="66.629"/>
+  </g>
+</svg>

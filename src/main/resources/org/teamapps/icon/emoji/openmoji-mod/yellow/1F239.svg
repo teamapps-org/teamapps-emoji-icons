@@ -1,0 +1,29 @@
+<svg viewBox="10 10 52 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#d0cfce" height="48.9841" rx="1.6991" width="48.9841" x="11.2344" y="11.9216"/>
+  </g>
+  <g id="line">
+    <g>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="22.9795" x2="35.9717" y1="31.4292" y2="31.4292"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="22.9795" x2="37.0869" y1="25.4179" y2="25.4179"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="22.2226" x2="36.3299" y1="25.4179" y2="25.4179"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="23.3965" x2="35.5363" y1="35.5475" y2="35.5475"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="24.1105" x2="35.0249" y1="50.7068" y2="50.7068"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="21.7278" x2="37.1933" y1="40.1152" y2="40.1152"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="29.4756" x2="29.4756" y1="28.8853" y2="40.1152"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="42.2216" x2="42.2216" y1="25.6206" y2="43.0035"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="29.4756" x2="29.4756" y1="21.9511" y2="25.1559"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="37.0869" x2="37.0869" y1="25.4179" y2="28.8853"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="22.2226" x2="22.2226" y1="25.4179" y2="28.8853"/>
+      <polyline fill="none" points="24.11 52.46 24.11 44.388 35.168 44.388 35.168 52.46" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <polyline fill="none" points="49.416 21.951 49.416 51.87 43.774 51.87" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect fill="none" height="48.9841" rx="1.6991" stroke="#000" stroke-miterlimit="10" stroke-width="2" width="48.9841" x="11.2344" y="11.9216"/>
+    </g>
+  </g>
+</svg>

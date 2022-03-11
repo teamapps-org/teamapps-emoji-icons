@@ -1,0 +1,18 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <path d="M19.9055,55.7995h32.1874C62.8891,49.3081,68,36.2917,68,20.7519H4 C4,36.2917,9.1109,49.3081,19.9055,55.7995z" fill="#FFFFFF" stroke="none"/>
+    <rect fill="#b1cc33" height="17.5238" stroke="none" width="14.019" x="18.3238" y="29.4186"/>
+    <polygon fill="#5c9e31" points="31,30 21,47 23,46.9424 32.3429,46.9424 32,30" stroke="none"/>
+  </g>
+  <g id="line">
+    <path d="M19.5,20.3161H4c0,15.5398,5.1109,28.5562,15.9055,35.0476h32.1874C62.8891,48.8723,68,35.8559,68,20.3161H31.5" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="25.5" x2="25.3334" y1="20.5" y2="31.4186"/>
+    <rect fill="none" height="17.5238" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="14.019" x="18.3238" y="29.4186"/>
+  </g>
+</svg>

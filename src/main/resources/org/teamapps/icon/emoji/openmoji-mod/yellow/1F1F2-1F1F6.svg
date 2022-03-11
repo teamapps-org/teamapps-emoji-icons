@@ -1,0 +1,43 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#1e50a0" height="38" width="62" x="5" y="17"/>
+    <polygon fill="#fff" points="67.004 33.045 39.004 33.004 39.028 17.004 33.028 16.996 33.004 32.996 5.004 32.955 4.996 38.955 32.996 38.996 32.972 54.996 38.972 55.004 38.996 39.004 66.996 39.045 67.004 33.045" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <g>
+      <line fill="#f1b31c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="16" x2="22.5" y1="50" y2="50"/>
+      <line fill="#f1b31c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="16" x2="22.5" y1="50" y2="49"/>
+      <circle cx="22.5" cy="49.5" fill="none" r="0.5" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M19,47a3,3,0,0,0,3,3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M17,44h1.5a.5015.5015,0,0,1,.5.5V47" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g>
+      <line fill="#f1b31c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="16" x2="22.5" y1="28" y2="28"/>
+      <line fill="#f1b31c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="16" x2="22.5" y1="28" y2="27"/>
+      <circle cx="22.5" cy="27.5" fill="none" r="0.5" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M19,25a3,3,0,0,0,3,3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M17,22h1.5a.5015.5015,0,0,1,.5.5V25" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g>
+      <line fill="#f1b31c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="50" x2="56.5" y1="50" y2="50"/>
+      <line fill="#f1b31c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="50" x2="56.5" y1="50" y2="49"/>
+      <circle cx="56.5" cy="49.5" fill="none" r="0.5" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M53,47a3,3,0,0,0,3,3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M51,44h1.5a.5015.5015,0,0,1,.5.5V47" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g>
+      <line fill="#f1b31c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="50" x2="56.5" y1="28" y2="28"/>
+      <line fill="#f1b31c" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="50" x2="56.5" y1="28" y2="27"/>
+      <circle cx="56.5" cy="27.5" fill="none" r="0.5" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M53,25a3,3,0,0,0,3,3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path d="M51,22h1.5a.5015.5015,0,0,1,.5.5V25" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+  <g id="line">
+    <rect fill="none" height="38" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="62" x="5" y="17"/>
+  </g>
+</svg>

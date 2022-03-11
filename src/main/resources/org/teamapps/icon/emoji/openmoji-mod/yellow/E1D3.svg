@@ -1,0 +1,23 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <polygon fill="#5C9E31" points="8,56 63,56 63,51 67,46.9042 67,28.0005 63,24 63,16 8,16" stroke="none"/>
+    <polyline fill="#5C9E31" points="63,56 63,51 67,46.9042 67,28.0005 63,24 63,16 56.1671,16" stroke="none"/>
+    <polygon fill="#B1CC33" points="31.333,56 8,56 8,16 56.1671,16" stroke="none"/>
+    <rect fill="#B1CC33" height="9" stroke="none" width="2" x="6" y="22"/>
+    <rect fill="#B1CC33" height="4" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="28" x="29" y="46"/>
+    <rect fill="#B1CC33" height="4" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="33" x="24" y="22"/>
+  </g>
+  <g id="line">
+    <polyline fill="none" points="8,22 8,16 63,16 63,24 67,28.0005 67,46.9042 63,51 63,56 8,56 8,31" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <rect fill="none" height="4" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="28" x="29" y="46"/>
+    <rect fill="none" height="4" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="33" x="24" y="22"/>
+    <polyline fill="none" points="18,30 18,22 5,22 5,31 11.1252,31" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline fill="none" points="14,50 18,50 18,46 14,46" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

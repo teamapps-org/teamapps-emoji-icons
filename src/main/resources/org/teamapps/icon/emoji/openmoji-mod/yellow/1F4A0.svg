@@ -1,0 +1,20 @@
+<svg viewBox="10 10 52 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#92d3f5" height="34.2487" transform="translate(-15.1825 36.3462) rotate(-45)" width="34.2487" x="19.1581" y="19.3756"/>
+    <rect fill="#e27022" height="8.4853" width="8.4853" x="31.7574" y="32.7574"/>
+  </g>
+  <g id="line">
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="32" x2="24.5" y1="33" y2="25.5"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="40" x2="48.5" y1="33" y2="24.5"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="40" x2="47.5" y1="41" y2="48.5"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="32" x2="24.5" y1="41" y2="48.5"/>
+    <rect fill="none" height="34.2487" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" transform="translate(-15.1825 36.3462) rotate(-45)" width="34.2487" x="19.1581" y="19.3756"/>
+    <rect fill="none" height="8.4853" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="8.4853" x="31.7574" y="32.7574"/>
+  </g>
+</svg>

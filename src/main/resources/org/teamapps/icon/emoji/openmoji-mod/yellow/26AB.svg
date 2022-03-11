@@ -1,0 +1,17 @@
+<svg viewBox="6 6 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="line-supplement">
+    <path d="M36 64.0001C51.464 64.0001 64 51.4641 64 36.0001C64 20.5361 51.464 8.00012 36 8.00012C20.536 8.00012 8 20.5361 8 36.0001C8 51.4641 20.536 64.0001 36 64.0001Z" fill="#000"/>
+  </g>
+  <g id="color">
+    <path d="M36 64.0001C51.464 64.0001 64 51.4641 64 36.0001C64 20.5361 51.464 8.00012 36 8.00012C20.536 8.00012 8 20.5361 8 36.0001C8 51.4641 20.536 64.0001 36 64.0001Z" fill="#3F3F3F"/>
+  </g>
+  <g id="line">
+    <path d="M36 64.0001C51.464 64.0001 64 51.4641 64 36.0001C64 20.5361 51.464 8.00012 36 8.00012C20.536 8.00012 8 20.5361 8 36.0001C8 51.4641 20.536 64.0001 36 64.0001Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

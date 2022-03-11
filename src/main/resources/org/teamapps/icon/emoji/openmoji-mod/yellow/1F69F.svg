@@ -1,0 +1,41 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="url(#yellow-gradient)" height="24" stroke="url(#yellow-gradient)" stroke-linejoin="round" width="43" x="13.5" y="28.5"/>
+    <line fill="none" stroke="#61b2e4" stroke-linejoin="round" stroke-width="2" x1="14" x2="56" y1="47.5" y2="47.5"/>
+    <rect fill="#d0cfce" height="10" stroke="#d0cfce" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="13" x="16.5" y="32.5"/>
+    <rect fill="#d0cfce" height="10" stroke="#d0cfce" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="13" x="40.5" y="32.5"/>
+    <rect fill="#9b9b9a" height="10" stroke="#9b9b9a" stroke-linecap="round" stroke-linejoin="round" width="4" x="30.5" y="32.5"/>
+    <rect fill="#9b9b9a" height="10" stroke="#9b9b9a" stroke-linecap="round" stroke-linejoin="round" width="4" x="35.5" y="32.5"/>
+  </g>
+  <g id="line">
+    <path d="M14.146,29H55.854A1.146,1.146,0,0,1,57,30.146V52a0,0,0,0,1,0,0H13a0,0,0,0,1,0,0V30.146A1.146,1.146,0,0,1,14.146,29Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0324"/>
+    <rect height="3" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="62" x="5" y="17"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="16" x2="19" y1="19" y2="25"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="25" x2="23" y1="19" y2="25"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="43" x2="46" y1="19" y2="25"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="52" x2="50" y1="19" y2="25"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="19" x2="23" y1="25" y2="25"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="46" x2="50" y1="25" y2="25"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="48" x2="48" y1="25" y2="28"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="21" x2="21" y1="25" y2="28"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9877" x1="16" x2="54" y1="43" y2="43"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9877" x1="16" x2="16" y1="32" y2="43"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9877" x1="54" x2="54" y1="32" y2="43"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9877" x1="16" x2="54" y1="32" y2="32"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9877" x1="40" x2="40" y1="33" y2="42"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9877" x1="30" x2="30" y1="33" y2="42"/>
+    <rect fill="none" height="11" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="14" x="40" y="32"/>
+    <rect fill="none" height="11" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="14" x="16" y="32"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9877" x1="35" x2="35" y1="32" y2="43"/>
+    <rect fill="none" height="11" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="5" x="30" y="32"/>
+    <rect fill="none" height="11" stroke="#000" stroke-linecap="round" stroke-linejoin="round" width="5" x="35" y="32"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="30" x2="30" y1="43" y2="51"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="40" x2="40" y1="43" y2="51"/>
+  </g>
+</svg>

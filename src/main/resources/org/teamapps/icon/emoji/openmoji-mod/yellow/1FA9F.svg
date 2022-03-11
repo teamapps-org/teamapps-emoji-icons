@@ -1,0 +1,23 @@
+<svg viewBox="9 9 54 54" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="line-supplement">
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0249" x1="35.9004" x2="35.9004" y1="14.7127" y2="57.1676"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0249" x1="14.7206" x2="57.2826" y1="35.9583" y2="35.9583"/>
+  </g>
+  <g id="color">
+    <rect fill="#92d3f5" height="42.7749" rx="0.7841" width="42.7749" x="14.513" y="14.6126"/>
+    <polygon fill="#fff" points="14.535 26.666 26.588 14.613 55.23 14.613 14.514 55.477 14.535 26.666"/>
+    <path d="M60.94,62H11.0176a1.06,1.06,0,0,1-1.06-1.06V11.0179a1.06,1.06,0,0,1,1.06-1.06H60.94a1.06,1.06,0,0,1,1.06,1.06V60.94A1.06,1.06,0,0,1,60.94,62ZM16.5733,56.3877H55.228a1.06,1.06,0,0,0,1.06-1.06V16.6722a1.06,1.06,0,0,0-1.06-1.06H16.5733a1.06,1.06,0,0,0-1.06,1.06V55.3278A1.06,1.06,0,0,0,16.5733,56.3877Z" fill="#a57939"/>
+    <line fill="none" stroke="#a57939" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0249" x1="35.9004" x2="35.9004" y1="14.6126" y2="57.3874"/>
+    <line fill="none" stroke="#a57939" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0249" x1="14.513" x2="57.2879" y1="35.9583" y2="35.9583"/>
+  </g>
+  <g id="line">
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="61" x2="10.9583" y1="61" y2="61"/>
+    <polyline fill="none" points="10.958 57.168 10.958 10.958 61 10.958 61 57.168" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

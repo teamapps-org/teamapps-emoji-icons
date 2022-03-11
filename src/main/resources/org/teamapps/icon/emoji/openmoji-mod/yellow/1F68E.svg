@@ -1,0 +1,33 @@
+<svg viewBox="11 11 50 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#3f3f3f" height="3" width="14" x="31" y="21"/>
+    <path d="M18,48h-.0853A2.9232,2.9232,0,0,1,15,45.0853V26.9147A2.9232,2.9232,0,0,1,17.9147,24H58.0853A2.9232,2.9232,0,0,1,61,26.9147V45.0853A2.9232,2.9232,0,0,1,58.0853,48H58" fill="#d0cfce"/>
+    <rect fill="#61b2e4" height="9" width="45" x="15" y="38"/>
+    <rect fill="#92d3f5" height="9" width="8" x="17" y="27"/>
+    <rect fill="#92d3f5" height="7" width="7" x="30" y="27"/>
+    <rect fill="#92d3f5" height="7" width="7" x="40" y="27"/>
+    <rect fill="#92d3f5" height="7" width="7" x="50" y="27"/>
+    <rect fill="#fff" height="3" width="5" x="16" y="38"/>
+    <circle cx="54" cy="48" fill="#d0cfce" r="4"/>
+    <circle cx="22" cy="48" fill="#d0cfce" r="4"/>
+  </g>
+  <g id="line">
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="50" x2="26.1209" y1="48" y2="48"/>
+    <polyline fill="none" points="30.909 24 30.909 21 46 21 46 24" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="38.4546" x2="47" y1="21" y2="11"/>
+    <circle cx="22" cy="48" fill="none" r="4" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="54" cy="48" fill="none" r="4" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="18 36 25 36 25 27.9" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="30.875 34 37 34 37 27.875" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="40.875 34 47 34 47 27.875" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="50.875 34 57 34 57 27.875" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M18,48h-.0853A2.9232,2.9232,0,0,1,15,45.0853V26.9147A2.9232,2.9232,0,0,1,17.9147,24H58.0853A2.9232,2.9232,0,0,1,61,26.9147V45.0853A2.9232,2.9232,0,0,1,58.0853,48H58" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="17 41 21 41 21 39" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

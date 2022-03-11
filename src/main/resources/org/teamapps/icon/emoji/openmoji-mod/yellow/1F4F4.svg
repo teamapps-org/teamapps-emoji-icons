@@ -1,0 +1,24 @@
+<svg viewBox="10 10 52 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#9b9b9a" height="26" stroke="none" width="3" x="45.0696" y="25"/>
+    <path d="M47.1249,46.3066v12.8577c0,0.4616-0.3741,0.8357-0.8357,0.8357H18.7108c-0.4616,0-0.8357-0.3741-0.8357-0.8357V12.3645 c0-0.4616,0.3741-0.8357,0.8357-0.8357h27.5784c0.4616,0,0.8357,0.3741,0.8357,0.8357v14.0542" fill="#9b9b9a" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <rect fill="#d0cfce" height="26" stroke="none" width="3" x="41.23" y="25"/>
+    <path d="M43.3642,46.3066v4.7258c0,0.4459-0.3614,0.8074-0.8074,0.8074H22.4431c-0.4459,0-0.8074-0.3614-0.8074-0.8074V17.5473 c0-0.4459,0.3614-0.8074,0.8074-0.8074h20.1137c0.4459,0,0.8074,0.3614,0.8074,0.8074v8.8714" fill="#d0cfce" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon fill="#FFFFFF" points="28.3214,14.2328 36.6786,14.2328 36.6786,14.2328 28.3214,14.2328" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+  <g id="line">
+    <path d="M47.1249,46.3066v12.8577c0,0.4616-0.3741,0.8357-0.8357,0.8357H18.7108c-0.4616,0-0.8357-0.3741-0.8357-0.8357V12.3645 c0-0.4616,0.3741-0.8357,0.8357-0.8357h27.5784c0.4616,0,0.8357,0.3741,0.8357,0.8357v14.0542" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M43.3642,46.3066v4.7258c0,0.4459-0.3614,0.8074-0.8074,0.8074H22.4431c-0.4459,0-0.8074-0.3614-0.8074-0.8074V17.5473 c0-0.4459,0.3614-0.8074,0.8074-0.8074h20.1137c0.4459,0,0.8074,0.3614,0.8074,0.8074v8.8714" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <circle cx="32.5" cy="56.0183" fill="#000000" r="1.6714" stroke="none"/>
+    <polygon fill="none" points="28.3214,14.2328 36.6786,14.2328 36.6786,14.2328 28.3214,14.2328" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline fill="none" points="45.8296,36.4699 42.8296,36.4699 42.8296,39.9699 42.8296,32.9699 46.8296,32.9699" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <polyline fill="none" points="53.8296,36.4699 50.8296,36.4699 50.8296,39.9699 50.8296,32.9699 54.8296,32.9699" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M35.5,39.9699L35.5,39.9699c-1.3807,0-2.5-1.1193-2.5-2.5v-2c0-1.3807,1.1193-2.5,2.5-2.5l0,0c1.3807,0,2.5,1.1193,2.5,2.5v2 C38,38.8506,36.8807,39.9699,35.5,39.9699z" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

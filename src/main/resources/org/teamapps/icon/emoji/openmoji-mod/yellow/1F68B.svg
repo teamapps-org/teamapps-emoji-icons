@@ -1,0 +1,32 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#ea5a47" height="12.0246" width="45.2778" x="21.5264" y="35.5642"/>
+    <rect fill="#92d3f5" height="10.6464" rx="1.0578" ry="1.0578" width="6.3408" x="34.358" y="32.2353"/>
+    <rect fill="#92d3f5" height="10.6464" rx="1.0578" ry="1.0578" width="6.3408" x="21.4024" y="32.2353"/>
+    <rect fill="#92d3f5" height="10.6464" rx="1.0578" ry="1.0578" width="6.3408" x="47.3682" y="32.2353"/>
+    <rect fill="#92d3f5" height="10.6464" rx="1.0578" ry="1.0578" width="6.3408" x="60.3785" y="32.2353"/>
+    <path d="M33.749,51.1115a4.2445,4.2445,0,0,1-8.4889,0" fill="#d0cfce"/>
+    <path d="M62.7161,51.1115a4.2445,4.2445,0,0,1-8.4889,0" fill="#d0cfce"/>
+    <rect fill="#3f3f3f" height="4.0628" width="43.9381" x="22.1962" y="47.0487"/>
+  </g>
+  <g id="line">
+    <line stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="3" x2="67" y1="56" y2="56"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="21" x2="67" y1="16" y2="16"/>
+    <polyline fill="none" points="34.358 26.392 40 21 34 16" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M23.149,50.1115H22.33a.891.891,0,0,1-.8884-.8884V28.2888a1.9023,1.9023,0,0,1,1.8968-1.8968H64.8225a1.9023,1.9023,0,0,1,1.8968,1.8968V49.2235a.8906.8906,0,0,1-.888.888h-.8291" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.0737"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.0737" x1="51.9715" x2="35.8454" y1="50.1115" y2="50.1115"/>
+    <path d="M33.749,51.3635a4.2445,4.2445,0,1,1-8.4889,0" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.0737"/>
+    <path d="M62.7161,51.1115a4.2445,4.2445,0,0,1-8.4889,0" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.0737"/>
+    <rect fill="none" height="10.6464" rx="1.0578" ry="1.0578" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.0737" width="6.3408" x="34.358" y="32.2455"/>
+    <rect fill="none" height="10.6464" rx="1.0578" ry="1.0578" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.0737" width="6.3408" x="21.4024" y="32.2455"/>
+    <rect fill="none" height="10.6464" rx="1.0578" ry="1.0578" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.0737" width="6.3408" x="47.1963" y="32.3238"/>
+    <rect fill="none" height="10.6464" rx="1.0578" ry="1.0578" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.0737" width="6.3408" x="60.3785" y="32.3238"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.9699" x1="20.3843" x2="67.7524" y1="47.0306" y2="47.0306"/>
+  </g>
+</svg>

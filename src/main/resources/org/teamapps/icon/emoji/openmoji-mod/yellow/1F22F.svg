@@ -1,0 +1,24 @@
+<svg viewBox="10 10 52 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#d0cfce" height="48.9841" rx="1.6991" width="48.9841" x="11.1676" y="11.0904"/>
+  </g>
+  <g id="line">
+    <g>
+      <polyline fill="none" points="37.932 51.824 37.932 36.539 50.072 36.539 50.072 51.824" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line fill="none" stroke="#000" stroke-miterlimit="5" stroke-width="2" x1="37.9318" x2="50.0719" y1="41.4334" y2="41.4334"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="5" stroke-width="2" x1="23.8345" x2="32.7317" y1="30.254" y2="30.254"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="5" stroke-width="2" x1="24.2786" x2="32.7539" y1="41.567" y2="38.8595"/>
+      <polyline fill="none" points="50.072 26.257 50.072 30.254 37.932 30.254 37.932 19.615" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <polyline fill="none" points="28.476 19.615 28.476 51.124 21.247 51.124" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line fill="none" stroke="#000" stroke-miterlimit="5" stroke-width="2" x1="37.9318" x2="50.0719" y1="46.7364" y2="46.7364"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="5" stroke-width="2" x1="37.9318" x2="47.9878" y1="25.533" y2="22.5202"/>
+      <rect fill="none" height="48.9841" rx="1.6991" stroke="#000" stroke-miterlimit="10" stroke-width="2" width="48.9841" x="11.1676" y="11.0904"/>
+    </g>
+  </g>
+</svg>

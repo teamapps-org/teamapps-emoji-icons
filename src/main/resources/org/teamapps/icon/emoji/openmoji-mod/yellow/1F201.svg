@@ -1,0 +1,20 @@
+<svg viewBox="10 10 52 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#d0cfce" height="48.9841" rx="1.6991" width="48.9841" x="11.8049" y="11.6024"/>
+  </g>
+  <g id="line">
+    <g>
+      <path d="M17.3676,26.2186h16.53a.43.43,0,0,1,.43.43V48.9454" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="5" stroke-width="2"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="5" stroke-width="2" x1="34.3267" x2="17.3676" y1="46.2827" y2="46.2827"/>
+      <path d="M37.4746,26.2186h16.53a.43.43,0,0,1,.4295.43V48.9454" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="5" stroke-width="2"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="5" stroke-width="2" x1="54.4338" x2="37.4746" y1="46.2827" y2="46.2827"/>
+      <rect fill="none" height="48.9841" rx="1.6991" stroke="#000" stroke-miterlimit="10" stroke-width="2" width="48.9841" x="11.8049" y="11.6024"/>
+    </g>
+  </g>
+</svg>

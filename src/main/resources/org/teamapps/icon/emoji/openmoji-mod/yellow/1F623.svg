@@ -1,0 +1,20 @@
+<svg viewBox="11 11 50 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <path d="M36.2002,13.3163c-12.5719,0-22.7998,10.2279-22.7998,22.7998c0,12.5718,10.2279,22.7998,22.7998,22.7998 C48.772,58.9159,59,48.6879,59,36.1161C59,23.5442,48.772,13.3163,36.2002,13.3163z" fill="url(#yellow-gradient)" stroke="none"/>
+    <path d="M28,51c0.2704-0.3562,3.3099-8.2177,8.4211-8.0038C41.0265,43.1889,43.6499,50.5372,44,51 C38.6667,51,33.3333,51,28,51z" fill="#FFFFFF" stroke="none"/>
+  </g>
+  <g id="line">
+    <circle cx="36" cy="36" fill="none" r="23" stroke="#000000" stroke-miterlimit="10" stroke-width="2"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="44.5361" x2="50.9214" y1="21.4389" y2="24.7158"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="26.9214" x2="20.5361" y1="21.4389" y2="24.7158"/>
+    <path d="M24,28c2.3334,1.3333,4.6666,2.6667,7,4c-2.3334,1.3333-4.6666,2.6667-7,4" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M48,28c-2.3334,1.3333-4.6666,2.6667-7,4c2.3334,1.3333,4.6666,2.6667,7,4" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M28,51c0.2704-0.3562,1-8,8.4211-8.0038C43,42.9929,43.6499,50.5372,44,51C38.6667,51,33.3333,51,28,51z" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

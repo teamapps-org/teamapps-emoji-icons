@@ -1,0 +1,22 @@
+<svg viewBox="9 9 54 54" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#92d3f5" height="50" rx="1.921" width="50" x="11" y="10.9583"/>
+    <path d="M43.96,46.2808,51.59,52.5a1.0894,1.0894,0,0,0,1.7778-.8445V33.4761a1.09,1.09,0,0,0-1.7778-.8445l-7.8408,6.3908" fill="#fff"/>
+    <path d="M41.7727,52.4857H20.82a2.1875,2.1875,0,0,1-2.1875-2.1875V34.833A2.1876,2.1876,0,0,1,20.82,32.6454H41.7728A2.1875,2.1875,0,0,1,43.96,34.833V50.2982A2.1875,2.1875,0,0,1,41.7727,52.4857Z" fill="#fff"/>
+    <circle cx="23.6473" cy="24.2533" fill="#fff" r="5"/>
+    <circle cx="38.7492" cy="24.2533" fill="#fff" r="5"/>
+  </g>
+  <g id="line">
+    <path d="M43.96,46.2808,51.59,52.5a1.0894,1.0894,0,0,0,1.7778-.8445V33.4761a1.09,1.09,0,0,0-1.7778-.8445l-7.63,6.18" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="23.6473" cy="24.2533" fill="none" r="5" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="38.7492" cy="24.2533" fill="none" r="5" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M41.7727,52.4857H20.82a2.1875,2.1875,0,0,1-2.1875-2.1875V34.833A2.1876,2.1876,0,0,1,20.82,32.6454H41.7728A2.1875,2.1875,0,0,1,43.96,34.833V50.2982A2.1875,2.1875,0,0,1,41.7727,52.4857Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+    <rect fill="none" height="50" rx="1.921" stroke="#000" stroke-miterlimit="10" stroke-width="2" width="50" x="11" y="10.9583"/>
+  </g>
+</svg>

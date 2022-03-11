@@ -1,0 +1,25 @@
+<svg viewBox="12 12 48 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <circle cx="36.1436" cy="39.6511" fill="#a57939" r="8.8964"/>
+  </g>
+  <g id="line">
+    <ellipse cx="36" cy="39.9211" fill="none" rx="20" ry="11.7371" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle cx="36.1436" cy="39.6511" r="4.8502"/>
+    <circle cx="36.1436" cy="39.6511" fill="none" r="4.8502"/>
+    <circle cx="36.1436" cy="39.6511" fill="none" r="8.8964" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="43.135 24.35 45.118 20.313 47.144 22.465 49.635 17.393" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="24.316 16.259 26.649 20.104 23.745 20.653 26.675 25.483" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="36.48 22.682 36.29 18.188 33.569 19.342 33.331 13.696" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+  <g id="color-foreground">
+    <polyline fill="none" points="43.135 24.35 45.118 20.313 47.144 22.465 49.635 17.393" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="24.316 16.259 26.649 20.104 23.745 20.653 26.675 25.483" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="36.48 22.682 36.29 18.188 33.569 19.342 33.331 13.696" stroke="#d22f27" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

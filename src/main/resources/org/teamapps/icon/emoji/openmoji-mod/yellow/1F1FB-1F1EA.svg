@@ -1,0 +1,26 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#d22f27" height="38" width="62" x="5" y="17"/>
+    <rect fill="#f1b31c" height="13" width="62" x="5" y="17"/>
+    <rect fill="#1e50a0" height="12" width="62" x="5" y="30"/>
+    <g>
+      <circle cx="34" cy="33" fill="#fff" r="1"/>
+      <circle cx="38" cy="33" fill="#fff" r="1"/>
+      <circle cx="30" cy="34" fill="#fff" r="1"/>
+      <circle cx="27" cy="36" fill="#fff" r="1"/>
+      <circle cx="25" cy="39" fill="#fff" r="1"/>
+      <circle cx="42" cy="34" fill="#fff" r="1"/>
+      <circle cx="45" cy="36" fill="#fff" r="1"/>
+      <circle cx="47" cy="39" fill="#fff" r="1"/>
+    </g>
+  </g>
+  <g id="line">
+    <rect fill="none" height="38" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="62" x="5" y="17"/>
+  </g>
+</svg>

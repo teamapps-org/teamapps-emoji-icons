@@ -1,0 +1,34 @@
+<svg viewBox="10 10 52 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="url(#yellow-gradient)" height="4.9408" rx="2.4704" ry="2.4704" width="16.9457" x="27.6889" y="10.9583"/>
+    <path d="M24.23,13.9583H47.7695A7.2305,7.2305,0,0,1,55,21.1888V47.4583a1.5,1.5,0,0,1-1.5,1.5h-35a1.5,1.5,0,0,1-1.5-1.5v-26.27a7.23,7.23,0,0,1,7.23-7.23Z" fill="url(#yellow-gradient)"/>
+    <rect fill="#f4aa41" height="10" width="38" x="17" y="38.9583"/>
+    <rect fill="#92d3f5" height="13" width="31" x="20" y="20.9583"/>
+    <rect fill="#fff" height="3" width="7" x="20" y="41.9583"/>
+    <rect fill="#fff" height="3" width="7" x="44" y="41.9583"/>
+    <rect fill="#3f3f3f" height="8" rx="2.6211" ry="2.6211" width="40" x="16" y="48.9583"/>
+    <rect fill="#3f3f3f" height="2.8665" rx="1.4333" ry="1.4333" width="10.9112" x="30.0444" y="13.2175"/>
+  </g>
+  <g id="line">
+    <rect fill="none" height="8" rx="2.6211" ry="2.6211" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="40" x="16" y="48.9583"/>
+    <rect height="4" rx="2" ry="2" width="6" x="18" y="56.9583"/>
+    <rect height="4" rx="2" ry="2" width="6" x="48" y="56.9583"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="16" x2="13" y1="25.9583" y2="25.9583"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="13" x2="13" y1="22.9583" y2="28.9583"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="56" x2="59" y1="25.9583" y2="25.9583"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="59" x2="59" y1="22.9583" y2="28.9583"/>
+    <path d="M44.1556,13.9583H47.77A7.2518,7.2518,0,0,1,55,21.1888v26.27a1.5044,1.5044,0,0,1-1.5,1.5h-35a1.5044,1.5044,0,0,1-1.5-1.5v-26.27a7.2515,7.2515,0,0,1,7.23-7.23h2.6142" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M51,21.9583v11.8H21" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="21 44.958 27 44.958 27 42.958" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polyline fill="none" points="45 44.958 51 44.958 51 42.958" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="32" x2="41" y1="41.9583" y2="41.9583"/>
+    <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="32" x2="41" y1="44.9583" y2="44.9583"/>
+    <path d="M26.8444,13.9583v-.4791a2.5283,2.5283,0,0,1,2.5209-2.5209H41.6347a2.5283,2.5283,0,0,1,2.5209,2.5209v.4791" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

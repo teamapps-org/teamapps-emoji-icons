@@ -1,0 +1,25 @@
+<svg viewBox="10 10 52 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#d0cfce" height="48.9841" rx="1.6991" width="48.9841" x="11.7919" y="11.9742"/>
+  </g>
+  <g id="line">
+    <g>
+      <polygon fill="none" points="34.293 24.315 48.428 24.315 48.428 35.141 34.047 35.141 34.047 24.315 34.293 24.315" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2" x1="34.0473" x2="48.4282" y1="29.7278" y2="29.7278"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="31.6927" x2="50.7839" y1="40.4638" y2="40.4638"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="31.6927" x2="50.7839" y1="45.787" y2="45.787"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="34.7145" x2="38.2479" y1="51.1101" y2="51.1101"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="21.2455" x2="28.7211" y1="36.3171" y2="33.1412"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="20.9261" x2="28.4017" y1="28.6462" y2="25.4703"/>
+      <polyline fill="none" points="42.521 52.493 46.054 52.493 46.054 40.696" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" x1="25.4646" x2="25.4646" y1="34.5247" y2="52.4926"/>
+      <rect fill="none" height="48.9841" rx="1.6991" stroke="#000" stroke-miterlimit="10" stroke-width="2" width="48.9841" x="11.7919" y="11.9742"/>
+    </g>
+  </g>
+</svg>

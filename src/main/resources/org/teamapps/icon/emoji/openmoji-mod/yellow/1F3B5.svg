@@ -1,0 +1,20 @@
+<svg viewBox="12 12 48 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <polygon fill="#3F3F3F" points="26.324,22.8117 51.6188,17.5516 51.5493,12.875 26.105,18.5407" stroke="none"/>
+    <circle cx="20.7561" cy="51.59" fill="#3F3F3F" r="5.7867" stroke="none"/>
+    <circle cx="46.2061" cy="46.0127" fill="#3F3F3F" r="5.787" stroke="none"/>
+  </g>
+  <g id="line">
+    <polygon fill="none" points="51.6188,17.5516 26.1735,23.2225 26.105,18.5407 51.5493,12.875" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <circle cx="20.7563" cy="51.5901" fill="none" r="5.7868" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="26.105" x2="26.5431" y1="18.5407" y2="51.5901"/>
+    <circle cx="46.2063" cy="46.0129" fill="none" r="5.7868" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" x1="51.555" x2="51.9931" y1="12.9635" y2="46.0129"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg viewBox="7 7 58 58" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#A57939" height="54" stroke="none" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="36" x="18" y="9"/>
+    <rect fill="#6A462F" height="16.3019" stroke="none" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="24" x="24" y="14.0943"/>
+    <rect fill="#6A462F" height="11.2075" stroke="none" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="24" x="24" y="45.6792"/>
+  </g>
+  <g id="line">
+    <rect fill="none" height="54" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="36" x="18" y="9"/>
+    <ellipse cx="49" cy="36.5094" fill="#000000" rx="2.5" ry="2.0377" stroke="none"/>
+    <path d="M49.5,41.6038h-1c-0.5523,0-1-0.4477-1-1v-6.1509c0-0.5523,0.4477-1,1-1h1c0.5523,0,1,0.4477,1,1v6.1509 C50.5,41.1561,50.0523,41.6038,49.5,41.6038z" fill="#000000" stroke="none"/>
+    <rect fill="none" height="16.3019" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="24" x="24" y="14.0943"/>
+    <rect fill="none" height="11.2075" stroke="#000000" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" width="24" x="24" y="45.6792"/>
+  </g>
+</svg>

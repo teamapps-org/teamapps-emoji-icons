@@ -1,0 +1,18 @@
+<svg viewBox="9 9 54 54" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <path d="M59.9589,52.7943H12.0411 c-0.5523,0-1-0.4477-1-1v-29.547c0-0.5523,0.4477-1,1-1h47.9178c0.5523,0,1,0.4477,1,1v29.547 C60.9589,52.3466,60.5112,52.7943,59.9589,52.7943z" fill="#92D3F5" stroke="none" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M60,31H12c-0.5523,0-1-0.4477-1-1v-2.8 c0-0.5523,0.4477-1,1-1h48c0.5523,0,1,0.4477,1,1V30C61,30.5523,60.5523,31,60,31z" fill="#3F3F3F" stroke="none" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M20.9984,47.8h-1.9471c-1.6645,0-3.0264-1.3619-3.0264-3.0264v-1.9471c0-1.6645,1.3619-3.0265,3.0264-3.0265h1.9471 c1.6645,0,3.0264,1.3619,3.0264,3.0265v1.9471C24.0249,46.4381,22.663,47.8,20.9984,47.8z" fill="url(#yellow-gradient)" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+  <g id="line">
+    <path d="M59.9589,52.7943H12.0411 c-0.5523,0-1-0.4477-1-1v-29.547c0-0.5523,0.4477-1,1-1h47.9178c0.5523,0,1,0.4477,1,1v29.547 C60.9589,52.3466,60.5112,52.7943,59.9589,52.7943z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M60,31H12c-0.5523,0-1-0.4477-1-1v-2.8 c0-0.5523,0.4477-1,1-1h48c0.5523,0,1,0.4477,1,1V30C61,30.5523,60.5523,31,60,31z" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="2"/>
+    <path d="M20.9984,47.8h-1.9471c-1.6645,0-3.0264-1.3619-3.0264-3.0264v-1.9471c0-1.6645,1.3619-3.0265,3.0264-3.0265h1.9471 c1.6645,0,3.0264,1.3619,3.0264,3.0265v1.9471C24.0249,46.4381,22.663,47.8,20.9984,47.8z" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

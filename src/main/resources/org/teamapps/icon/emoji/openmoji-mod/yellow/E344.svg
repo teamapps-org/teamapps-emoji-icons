@@ -1,0 +1,17 @@
+<svg viewBox="6 6 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <polygon fill="#5c9e31" points="24.74 38.44 25.9 38.71 25.93 46.23 42.45 53.93 54.88 42.11 24.74 37.1" stroke-width="0.6925" transform="translate(-14.66 -27.73) scale(1.444)"/>
+  </g>
+  <g id="line" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="m7.95 20.5 9.409 4.316 1.505 12.74 35.49 17.15" stroke="#000"/>
+    <path d="m19.99 38.31s-0.6416 14.85-0.1209 16.16c0.4215 1.06 4.497 2.403 5.832 0.8481 1.466-1.708 4.697-12.84 4.697-12.84" stroke="#000"/>
+    <path d="m59.66 54.71a5.302 5.392 0 0 1-5.302 5.392 5.302 5.392 0 0 1-5.302-5.392 5.302 5.392 0 0 1 5.302-5.392 5.302 5.392 0 0 1 5.302 5.392" stroke="#000"/>
+    <path d="m64.05 33.49-42.22-7.064v1.892l1.628 0.379 0.03923 10.6 23.14 10.85z" stroke="#000"/>
+  </g>
+</svg>

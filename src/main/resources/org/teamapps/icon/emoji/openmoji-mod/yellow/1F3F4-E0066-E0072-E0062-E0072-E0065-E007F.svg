@@ -1,0 +1,28 @@
+<svg viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <rect fill="#fff" height="38" width="62" x="5" y="17"/>
+    <rect fill="#000" height="4" width="34" x="33" y="22"/>
+    <rect fill="#000" height="4" width="34" x="33" y="30"/>
+    <rect fill="#000" height="4" width="62" x="5" y="38"/>
+    <rect fill="#000" height="4" width="62" x="5" y="46"/>
+    <g fill="#000" stroke="#000" stroke-linejoin="round" stroke-width="2">
+      <polygon points="9 24 11 24 10 21"/>
+      <polygon points="18 24 20 24 19 21"/>
+      <polygon points="27 24 29 24 28 21"/>
+      <polygon points="13.5 29 15.5 29 14.5 26"/>
+      <polygon points="22.5 29 24.5 29 23.5 26"/>
+      <polygon points="9 34 11 34 10 31"/>
+      <polygon points="18 34 20 34 19 31"/>
+      <polygon points="27 34 29 34 28 31"/>
+    </g>
+  </g>
+  <g id="line">
+    <rect fill="none" height="38" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="62" x="5" y="17"/>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg viewBox="10 10 52 52" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDE02F;stop-opacity:1;"/>
+      <stop offset="100%" style="stop-color:#F7B209;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+  <g id="color">
+    <path d="M59.0349,60h-46.07A.9679.9679,0,0,1,12,59.0349v-46.07A.9679.9679,0,0,1,12.9651,12h46.07A.9679.9679,0,0,1,60,12.9651v46.07A.9679.9679,0,0,1,59.0349,60Z" fill="#ea5a47"/>
+  </g>
+  <g id="line" fill="none" stroke="#000" stroke-width="2">
+    <path d="M59.0349,60h-46.07A.9679.9679,0,0,1,12,59.0349v-46.07A.9679.9679,0,0,1,12.9651,12h46.07A.9679.9679,0,0,1,60,12.9651v46.07A.9679.9679,0,0,1,59.0349,60Z" stroke-miterlimit="10"/>
+    <line stroke-linecap="round" stroke-linejoin="round" x1="20.95" x2="23.95" y1="21.5" y2="24.5"/>
+    <line stroke-linecap="round" stroke-linejoin="round" x1="19.95" x2="22.95" y1="29.5" y2="32.5"/>
+    <line stroke-linecap="round" stroke-linejoin="round" x1="27.05" x2="50.05" y1="24" y2="24"/>
+    <line stroke-linecap="round" stroke-linejoin="round" x1="34.05" x2="34.05" y1="21" y2="29"/>
+    <line stroke-linecap="round" stroke-linejoin="round" x1="44.05" x2="44.05" y1="21" y2="29"/>
+    <line stroke-linecap="round" stroke-linejoin="round" x1="26.05" x2="52.05" y1="30" y2="30"/>
+    <polyline points="39.5 30.5 39.5 44.5 44.5 44.5 44.5 39.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(-.4469 .5)"/>
+    <polyline points="34.5 39.5 34.5 44.5 34.5 46.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(-.4469 .5)"/>
+    <line stroke-linecap="round" stroke-linejoin="round" x1="39.05" x2="35.05" y1="45" y2="45"/>
+    <path d="m24.05 40s-1 7-4 9" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="28.5 50.5 28.5 34.5 49.5 34.5 49.5 49.5 44.5 49.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(-.4469 .5)"/>
+  </g>
+  <g id="color-foreground" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <line x1="20.95" x2="23.95" y1="21.5" y2="24.5"/>
+    <line x1="19.95" x2="22.95" y1="29.5" y2="32.5"/>
+    <line x1="27.05" x2="50.05" y1="24" y2="24"/>
+    <line x1="34.05" x2="34.05" y1="21" y2="29"/>
+    <line x1="44.05" x2="44.05" y1="21" y2="29"/>
+    <line x1="26.05" x2="52.05" y1="30" y2="30"/>
+    <polyline points="39.5 30.5 39.5 44.5 44.5 44.5 44.5 39.5" transform="translate(-.4469 .5)"/>
+    <polyline points="34.5 39.5 34.5 44.5 34.5 46.5" transform="translate(-.4469 .5)"/>
+    <line x1="39.05" x2="35.05" y1="45" y2="45"/>
+    <path d="m24.05 40s-1 7-4 9"/>
+    <polyline points="28.5 50.5 28.5 34.5 49.5 34.5 49.5 49.5 44.5 49.5" transform="translate(-.4469 .5)"/>
+  </g>
+</svg>
